@@ -4116,4 +4116,1381 @@ MACRO gf180mcu_osu_sc_gp9t3v3__xor2_1
   END
 END gf180mcu_osu_sc_gp9t3v3__xor2_1
 
+MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__and3_2 ;
+  ORIGIN 0.900 0.000 ;
+  SIZE 5.700 BY 6.350 ;
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.200 3.100 0.300 3.400 ;
+      LAYER Metal2 ;
+        RECT -0.200 3.050 0.300 3.450 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.500 2.150 2.000 2.450 ;
+      LAYER Metal2 ;
+        RECT 1.500 2.100 2.000 2.500 ;
+    END
+  END B
+  PIN Y
+    ANTENNADIFFAREA 1.402500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.100 2.450 3.350 5.300 ;
+        RECT 3.100 2.150 3.950 2.450 ;
+        RECT 3.100 1.050 3.350 2.150 ;
+      LAYER Metal2 ;
+        RECT 3.400 2.100 3.900 2.500 ;
+    END
+  END Y
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.050 3.100 1.550 3.400 ;
+      LAYER Metal2 ;
+        RECT 1.050 3.050 1.550 3.450 ;
+    END
+  END C
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.900 3.150 4.800 6.350 ;
+      LAYER Metal1 ;
+        RECT -0.900 5.650 4.800 6.350 ;
+        RECT 0.550 4.600 0.800 5.650 ;
+        RECT 2.250 4.600 2.500 5.650 ;
+        RECT 3.950 4.600 4.200 5.650 ;
+    END
+  END VDD
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Pwell ;
+        RECT -0.900 0.000 4.800 3.150 ;
+      LAYER Metal1 ;
+        RECT 2.250 0.700 2.500 1.500 ;
+        RECT 3.950 0.700 4.200 1.500 ;
+        RECT -0.900 0.000 4.800 0.700 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
+        RECT -0.300 4.200 -0.050 5.300 ;
+        RECT 1.400 4.200 1.650 5.300 ;
+        RECT -0.300 3.950 2.750 4.200 ;
+        RECT 0.550 2.500 0.800 3.950 ;
+        RECT 2.450 3.000 2.750 3.950 ;
+        RECT -0.300 2.250 0.800 2.500 ;
+        RECT -0.300 1.050 -0.050 2.250 ;
+        RECT 0.550 1.050 0.800 1.750 ;
+        RECT 1.400 1.050 1.650 1.750 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__and3_2
+MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__nor3_1 ;
+  ORIGIN -5.700 0.000 ;
+  SIZE 3.900 BY 6.350 ;
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 6.350 2.150 6.850 2.450 ;
+      LAYER Metal2 ;
+        RECT 6.350 2.100 6.850 2.500 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.600 2.150 8.100 2.450 ;
+      LAYER Metal2 ;
+        RECT 7.600 2.100 8.100 2.500 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.050 3.100 8.550 3.400 ;
+      LAYER Metal2 ;
+        RECT 8.050 3.050 8.550 3.450 ;
+    END
+  END C
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT 5.700 3.150 9.600 6.350 ;
+      LAYER Metal1 ;
+        RECT 5.700 5.650 9.600 6.350 ;
+        RECT 6.250 4.450 6.500 5.650 ;
+    END
+  END VDD
+  PIN Y
+    ANTENNADIFFAREA 1.742500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.800 4.150 9.050 5.300 ;
+        RECT 7.100 3.900 9.050 4.150 ;
+        RECT 7.100 1.050 7.350 3.900 ;
+        RECT 8.800 2.450 9.050 3.900 ;
+        RECT 8.800 2.150 9.550 2.450 ;
+        RECT 8.800 1.050 9.050 2.150 ;
+      LAYER Metal2 ;
+        RECT 9.050 2.100 9.550 2.500 ;
+    END
+  END Y
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Pwell ;
+        RECT 5.700 0.000 9.600 3.150 ;
+      LAYER Metal1 ;
+        RECT 6.250 0.700 6.500 1.500 ;
+        RECT 7.950 0.700 8.200 1.500 ;
+        RECT 5.700 0.000 9.600 0.700 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
+        RECT 7.100 4.450 7.350 5.300 ;
+        RECT 7.950 4.450 8.200 5.300 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__nor3_1
+MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__or3_1 ;
+  ORIGIN -5.250 0.000 ;
+  SIZE 4.750 BY 6.350 ;
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.900 3.100 6.400 3.400 ;
+      LAYER Metal2 ;
+        RECT 5.900 3.050 6.400 3.450 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.150 3.100 7.650 3.400 ;
+      LAYER Metal2 ;
+        RECT 7.150 3.050 7.650 3.450 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.000 2.100 8.500 2.400 ;
+      LAYER Metal2 ;
+        RECT 8.000 2.050 8.500 2.450 ;
+    END
+  END C
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT 5.250 3.150 10.000 6.350 ;
+      LAYER Metal1 ;
+        RECT 5.250 5.650 10.000 6.350 ;
+        RECT 8.350 4.400 8.600 5.650 ;
+    END
+  END VDD
+  PIN Y
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 9.200 2.350 9.450 5.300 ;
+        RECT 9.200 2.050 9.900 2.350 ;
+        RECT 9.200 1.050 9.450 2.050 ;
+      LAYER Metal2 ;
+        RECT 9.400 2.000 9.900 2.400 ;
+    END
+  END Y
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Pwell ;
+        RECT 5.250 0.000 10.000 3.150 ;
+      LAYER Metal1 ;
+        RECT 6.650 0.700 6.900 1.550 ;
+        RECT 8.350 0.700 8.600 1.550 ;
+        RECT 5.250 0.000 10.000 0.700 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
+        RECT 5.800 4.050 6.050 5.300 ;
+        RECT 6.650 4.400 6.900 5.300 ;
+        RECT 7.500 4.400 7.750 5.300 ;
+        RECT 5.800 3.800 8.850 4.050 ;
+        RECT 6.650 2.050 6.900 3.800 ;
+        RECT 8.550 3.000 8.850 3.800 ;
+        RECT 5.800 1.800 7.750 2.050 ;
+        RECT 5.800 1.050 6.050 1.800 ;
+        RECT 7.500 1.050 7.750 1.800 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__or3_1
+
+MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi211_1 ;
+  ORIGIN 0.900 0.900 ;
+  SIZE 4.450 BY 6.350 ;
+  PIN vdd
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.900 2.250 3.550 5.450 ;
+      LAYER Metal1 ;
+        RECT -0.900 4.750 3.550 5.450 ;
+        RECT 0.500 3.300 0.750 4.750 ;
+    END
+  END vdd
+  PIN A0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.700 1.750 1.200 2.050 ;
+      LAYER Metal2 ;
+        RECT 0.700 1.700 1.200 2.100 ;
+    END
+  END A0
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.150 1.750 0.350 2.050 ;
+      LAYER Metal2 ;
+        RECT -0.150 1.700 0.350 2.100 ;
+    END
+  END A1
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.500 1.750 2.000 2.050 ;
+      LAYER Metal2 ;
+        RECT 1.500 1.700 2.000 2.100 ;
+    END
+  END B
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.300 1.750 2.800 2.050 ;
+      LAYER Metal2 ;
+        RECT 2.300 1.700 2.800 2.100 ;
+    END
+  END C
+  PIN Y
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.742500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.750 2.600 3.000 3.700 ;
+        RECT 2.750 2.300 3.300 2.600 ;
+        RECT 3.050 2.100 3.300 2.300 ;
+        RECT 3.050 1.700 3.550 2.100 ;
+        RECT 3.050 1.400 3.300 1.700 ;
+        RECT 1.350 1.150 3.300 1.400 ;
+        RECT 1.350 0.250 1.600 1.150 ;
+        RECT 3.050 0.250 3.300 1.150 ;
+      LAYER Metal2 ;
+        RECT 3.150 1.700 3.550 2.100 ;
+    END
+  END Y
+  PIN vss
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.350 -0.200 -0.100 0.900 ;
+        RECT 2.200 -0.200 2.450 0.900 ;
+        RECT -0.900 -0.900 3.550 -0.200 ;
+    END
+  END vss
+  OBS
+      LAYER Metal1 ;
+        RECT -0.350 3.000 -0.100 3.950 ;
+        RECT 1.350 3.000 1.600 3.950 ;
+        RECT -0.350 2.750 1.600 3.000 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__aoi211_1
+MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi221_1 ;
+  ORIGIN 0.300 0.250 ;
+  SIZE 5.600 BY 6.350 ;
+  PIN A0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.350 2.700 4.850 3.000 ;
+      LAYER Metal2 ;
+        RECT 4.350 2.650 4.850 3.050 ;
+    END
+  END A0
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.100 2.300 3.600 2.600 ;
+      LAYER Metal2 ;
+        RECT 3.100 2.250 3.600 2.650 ;
+    END
+  END A1
+  PIN B0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.300 2.250 1.800 2.550 ;
+      LAYER Metal2 ;
+        RECT 1.300 2.200 1.800 2.600 ;
+    END
+  END B0
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.450 2.100 0.950 2.400 ;
+      LAYER Metal2 ;
+        RECT 0.450 2.050 0.950 2.450 ;
+    END
+  END B1
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.200 2.300 2.700 2.600 ;
+      LAYER Metal2 ;
+        RECT 2.200 2.250 2.700 2.650 ;
+    END
+  END C
+  PIN Y
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.912500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.650 3.100 3.900 4.300 ;
+        RECT 3.650 2.850 4.100 3.100 ;
+        RECT 3.850 2.050 4.100 2.850 ;
+        RECT 4.400 2.050 5.050 2.300 ;
+        RECT 1.950 2.000 5.050 2.050 ;
+        RECT 1.950 1.800 4.650 2.000 ;
+        RECT 1.950 0.800 2.200 1.800 ;
+        RECT 4.400 0.800 4.650 1.800 ;
+      LAYER Metal2 ;
+        RECT 4.500 1.950 5.050 2.350 ;
+    END
+  END Y
+  PIN vdd
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.300 2.900 5.300 6.100 ;
+      LAYER Metal1 ;
+        RECT -0.300 5.400 5.300 6.100 ;
+        RECT 1.100 3.950 1.350 5.400 ;
+    END
+  END vdd
+  PIN vss
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.550 0.450 0.800 1.600 ;
+        RECT 3.000 0.450 3.250 1.550 ;
+        RECT -0.300 -0.250 5.300 0.450 ;
+    END
+  END vss
+  OBS
+      LAYER Metal1 ;
+        RECT 2.800 4.750 4.750 5.000 ;
+        RECT 0.250 3.150 0.500 4.300 ;
+        RECT 1.950 3.150 2.200 4.300 ;
+        RECT 2.800 4.050 3.050 4.750 ;
+        RECT 4.500 4.050 4.750 4.750 ;
+        RECT 0.250 2.900 2.200 3.150 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__aoi221_1
+MACRO gf180mcu_osu_sc_gp9t3v3__aoi222_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi222_1 ;
+  ORIGIN 17.590 -2.240 ;
+  SIZE 7.200 BY 8.300 ;
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Metal1 ;
+        RECT -17.040 2.940 -16.790 4.140 ;
+        RECT -14.900 2.940 -14.650 4.140 ;
+        RECT -11.370 2.940 -11.120 4.140 ;
+        RECT -17.590 2.240 -10.390 2.940 ;
+    END
+  END VSS
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT -17.590 7.340 -10.390 10.540 ;
+      LAYER Metal1 ;
+        RECT -17.590 9.840 -10.390 10.540 ;
+        RECT -17.040 7.790 -16.790 9.840 ;
+        RECT -15.340 7.790 -15.090 9.840 ;
+    END
+  END VDD
+  PIN Y
+    ANTENNADIFFAREA 2.210000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -12.040 8.145 -11.790 9.490 ;
+        RECT -12.080 7.790 -11.750 8.145 ;
+        RECT -12.045 4.600 -11.785 7.095 ;
+        RECT -15.650 4.370 -11.785 4.600 ;
+        RECT -15.650 3.290 -15.400 4.370 ;
+        RECT -13.510 3.290 -13.260 4.370 ;
+        RECT -12.760 3.290 -12.510 4.370 ;
+      LAYER Metal2 ;
+        RECT -12.055 6.715 -11.775 8.170 ;
+    END
+  END Y
+  PIN A1
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -16.815 6.830 -16.415 7.230 ;
+      LAYER Metal2 ;
+        RECT -16.815 6.830 -16.415 7.230 ;
+    END
+  END A1
+  PIN A2
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -15.840 6.150 -15.440 6.550 ;
+      LAYER Metal2 ;
+        RECT -15.840 6.150 -15.440 6.550 ;
+    END
+  END A2
+  PIN B1
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -14.235 5.470 -13.835 5.870 ;
+      LAYER Metal2 ;
+        RECT -14.235 5.470 -13.835 5.870 ;
+    END
+  END B1
+  PIN B2
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -13.395 4.830 -12.995 5.230 ;
+      LAYER Metal2 ;
+        RECT -13.395 4.830 -12.995 5.230 ;
+    END
+  END B2
+  PIN C2
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -11.495 5.465 -11.095 5.865 ;
+      LAYER Metal2 ;
+        RECT -11.495 5.465 -11.095 5.865 ;
+    END
+  END C2
+  PIN C1
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -12.750 6.150 -12.350 6.550 ;
+      LAYER Metal2 ;
+        RECT -12.750 6.150 -12.350 6.550 ;
+    END
+  END C1
+  OBS
+      LAYER Metal1 ;
+        RECT -16.190 8.780 -15.940 9.490 ;
+        RECT -16.205 8.500 -15.925 8.780 ;
+        RECT -16.190 7.790 -15.940 8.500 ;
+        RECT -14.590 7.560 -14.340 9.490 ;
+        RECT -13.740 8.780 -13.490 9.490 ;
+        RECT -13.755 8.500 -13.475 8.780 ;
+        RECT -13.740 7.790 -13.490 8.500 ;
+        RECT -12.890 7.560 -12.640 9.490 ;
+        RECT -11.190 7.560 -10.940 9.490 ;
+        RECT -14.590 7.330 -10.940 7.560 ;
+      LAYER Metal2 ;
+        RECT -16.255 8.500 -13.425 8.780 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__aoi222_1
+MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi33_1 ;
+  ORIGIN -5.300 0.000 ;
+  SIZE 6.450 BY 6.350 ;
+  PIN F
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.750 2.950 6.250 3.250 ;
+      LAYER Metal2 ;
+        RECT 5.750 2.900 6.250 3.300 ;
+    END
+  END F
+  PIN E
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 6.800 2.300 7.300 2.600 ;
+      LAYER Metal2 ;
+        RECT 6.800 2.250 7.300 2.650 ;
+    END
+  END E
+  PIN D
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.650 2.300 8.150 2.600 ;
+      LAYER Metal2 ;
+        RECT 7.650 2.250 8.150 2.650 ;
+    END
+  END D
+  PIN A
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.900 2.300 9.400 2.600 ;
+      LAYER Metal2 ;
+        RECT 8.900 2.250 9.400 2.650 ;
+    END
+  END A
+  PIN B
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 9.750 2.300 10.250 2.600 ;
+      LAYER Metal2 ;
+        RECT 9.750 2.250 10.250 2.650 ;
+    END
+  END B
+  PIN C
+    DIRECTION INPUT ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 10.600 2.300 11.100 2.600 ;
+      LAYER Metal2 ;
+        RECT 10.600 2.250 11.100 2.650 ;
+    END
+  END C
+  PIN OUT
+    DIRECTION OUTPUT ;
+    ANTENNADIFFAREA 2.252500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.850 3.900 6.100 5.300 ;
+        RECT 7.550 3.900 7.800 4.800 ;
+        RECT 5.850 3.600 7.950 3.900 ;
+        RECT 7.550 3.200 7.800 3.600 ;
+        RECT 11.250 3.200 11.750 3.250 ;
+        RECT 7.550 2.950 11.750 3.200 ;
+        RECT 8.400 1.050 8.650 2.950 ;
+      LAYER Metal2 ;
+        RECT 11.250 2.900 11.750 3.300 ;
+    END
+  END OUT
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT 5.300 3.150 11.750 6.350 ;
+      LAYER Metal1 ;
+        RECT 5.300 5.650 11.750 6.350 ;
+        RECT 9.250 4.100 9.500 5.650 ;
+        RECT 10.950 3.600 11.200 5.650 ;
+    END
+  END VDD
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.850 0.700 6.100 1.900 ;
+        RECT 10.950 0.700 11.200 1.900 ;
+        RECT 5.300 0.000 11.750 0.700 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
+        RECT 6.700 5.050 8.650 5.300 ;
+        RECT 6.700 4.150 6.950 5.050 ;
+        RECT 8.400 3.850 8.650 5.050 ;
+        RECT 10.100 3.850 10.350 5.300 ;
+        RECT 8.400 3.600 10.350 3.850 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__aoi33_1
+MACRO gf180mcu_osu_sc_gp9t3v3__comp2_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__comp2_1 ;
+  ORIGIN 8.310 5.960 ;
+  SIZE 14.805 BY 8.610 ;
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT -8.310 -2.085 6.495 2.650 ;
+      LAYER Metal1 ;
+        RECT -7.995 1.790 6.250 2.490 ;
+        RECT -6.835 -1.260 -6.575 1.790 ;
+        RECT -5.130 -1.260 -4.870 1.790 ;
+        RECT -3.170 -1.260 -2.910 1.790 ;
+        RECT 1.010 -1.260 1.270 1.790 ;
+        RECT 3.020 -1.260 3.280 1.790 ;
+        RECT 4.715 -1.260 4.975 1.790 ;
+    END
+  END VDD
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Metal1 ;
+        POLYGON 0.215 -2.245 0.215 -2.505 -0.045 -2.505 ;
+        RECT 0.215 -2.315 1.225 -2.245 ;
+        POLYGON 1.225 -2.245 1.290 -2.315 1.225 -2.315 ;
+        RECT 0.215 -2.505 1.290 -2.315 ;
+        POLYGON 1.290 -2.315 1.480 -2.505 1.290 -2.505 ;
+        POLYGON -0.045 -2.505 -0.045 -2.615 -0.150 -2.615 ;
+        RECT -0.045 -2.615 0.055 -2.505 ;
+        POLYGON -0.150 -2.615 -0.150 -2.650 -0.185 -2.650 ;
+        RECT -0.150 -2.650 0.055 -2.615 ;
+        POLYGON -0.185 -2.650 -0.185 -2.665 -0.205 -2.665 ;
+        RECT -0.185 -2.665 0.055 -2.650 ;
+        RECT -6.835 -5.260 -6.575 -3.060 ;
+        RECT -3.510 -5.260 -3.250 -3.060 ;
+        RECT -0.205 -3.900 0.055 -2.665 ;
+        POLYGON 0.055 -2.505 0.325 -2.505 0.055 -2.775 ;
+        POLYGON 1.115 -2.505 1.385 -2.505 1.385 -2.775 ;
+        RECT 1.385 -2.680 1.480 -2.505 ;
+        POLYGON 1.480 -2.505 1.660 -2.680 1.480 -2.680 ;
+        RECT 1.385 -2.775 1.660 -2.680 ;
+        POLYGON 1.385 -2.775 1.400 -2.775 1.400 -2.790 ;
+        RECT 1.400 -5.260 1.660 -2.775 ;
+        RECT 4.715 -5.260 4.975 -3.060 ;
+        RECT -7.995 -5.960 6.250 -5.260 ;
+    END
+  END VSS
+  PIN L
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -7.670 -3.910 -7.410 0.440 ;
+    END
+  END L
+  PIN E
+    ANTENNADIFFAREA 1.402500 ;
+    PORT
+      LAYER Metal1 ;
+        POLYGON -1.055 -2.315 -1.055 -2.450 -1.225 -2.450 ;
+        RECT -1.055 -2.440 -0.795 0.440 ;
+        RECT -1.055 -2.450 -0.810 -2.440 ;
+        POLYGON -0.810 -2.440 -0.795 -2.440 -0.810 -2.450 ;
+        POLYGON -1.225 -2.450 -1.225 -2.495 -1.280 -2.495 ;
+        RECT -1.225 -2.495 -0.865 -2.450 ;
+        POLYGON -0.865 -2.450 -0.810 -2.450 -0.865 -2.495 ;
+        POLYGON -1.280 -2.495 -1.280 -2.650 -1.470 -2.650 ;
+        RECT -1.280 -2.650 -1.055 -2.495 ;
+        POLYGON -1.055 -2.495 -0.865 -2.495 -1.055 -2.650 ;
+        POLYGON -1.470 -2.650 -1.470 -2.725 -1.565 -2.725 ;
+        RECT -1.470 -2.725 -1.150 -2.650 ;
+        POLYGON -1.150 -2.650 -1.055 -2.650 -1.150 -2.725 ;
+        POLYGON -1.565 -2.725 -1.565 -2.750 -1.595 -2.750 ;
+        RECT -1.565 -2.750 -1.180 -2.725 ;
+        POLYGON -1.180 -2.725 -1.150 -2.725 -1.180 -2.750 ;
+        POLYGON -1.595 -2.750 -1.595 -2.980 -1.885 -2.980 ;
+        RECT -1.595 -2.980 -1.470 -2.750 ;
+        POLYGON -1.470 -2.750 -1.180 -2.750 -1.470 -2.980 ;
+        POLYGON -1.885 -2.980 -1.885 -3.000 -1.905 -3.000 ;
+        RECT -1.885 -3.000 -1.490 -2.980 ;
+        POLYGON -1.490 -2.980 -1.470 -2.980 -1.490 -3.000 ;
+        RECT -1.905 -3.910 -1.645 -3.000 ;
+        POLYGON -1.645 -3.000 -1.490 -3.000 -1.645 -3.125 ;
+    END
+  END E
+  PIN G
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.560 -3.910 5.820 0.440 ;
+    END
+  END G
+  OBS
+      LAYER Metal1 ;
+        POLYGON -1.275 1.010 -1.275 0.890 -1.445 0.890 ;
+        RECT -1.275 0.890 -0.570 1.010 ;
+        POLYGON -0.570 1.010 -0.400 0.890 -0.570 0.890 ;
+        POLYGON -1.445 0.890 -1.445 0.690 -1.730 0.690 ;
+        RECT -1.445 0.750 -0.400 0.890 ;
+        RECT -1.445 0.690 -1.275 0.750 ;
+        POLYGON -1.275 0.750 -1.190 0.750 -1.275 0.690 ;
+        POLYGON -0.655 0.750 -0.570 0.750 -0.570 0.690 ;
+        RECT -0.570 0.690 -0.400 0.750 ;
+        POLYGON -1.730 0.690 -1.730 0.575 -1.900 0.575 ;
+        RECT -1.730 0.575 -1.445 0.690 ;
+        POLYGON -1.445 0.690 -1.275 0.690 -1.445 0.575 ;
+        POLYGON -0.570 0.690 -0.405 0.690 -0.405 0.575 ;
+        RECT -0.405 0.575 -0.400 0.690 ;
+        RECT -1.900 0.570 -1.445 0.575 ;
+        POLYGON -0.405 0.575 -0.400 0.575 -0.400 0.570 ;
+        POLYGON -0.400 0.890 0.050 0.570 -0.400 0.570 ;
+        RECT -1.900 0.440 -1.635 0.570 ;
+        POLYGON -1.635 0.570 -1.445 0.570 -1.635 0.440 ;
+        POLYGON -0.400 0.570 -0.215 0.570 -0.215 0.440 ;
+        RECT -0.215 0.440 0.050 0.570 ;
+        RECT -5.965 -2.520 -5.705 0.435 ;
+        RECT -4.350 -1.770 -4.090 0.440 ;
+        RECT -1.900 -1.260 -1.640 0.440 ;
+        RECT -0.210 -1.000 0.050 0.440 ;
+        POLYGON -0.210 -1.000 -0.205 -1.000 -0.205 -1.050 ;
+        RECT -0.205 -1.260 0.050 -1.000 ;
+        POLYGON 0.050 -1.000 0.055 -1.260 0.050 -1.260 ;
+        RECT -5.455 -2.070 -4.815 -1.770 ;
+        RECT -4.500 -1.775 -4.090 -1.770 ;
+        RECT -4.500 -2.070 -3.950 -1.775 ;
+        RECT -7.170 -2.820 -6.660 -2.520 ;
+        RECT -6.055 -2.820 -5.625 -2.520 ;
+        RECT -5.350 -2.820 -4.800 -2.520 ;
+        RECT -5.135 -2.835 -4.800 -2.820 ;
+        RECT -5.135 -3.910 -4.875 -2.835 ;
+        RECT -4.350 -3.910 -4.090 -2.070 ;
+        RECT -2.750 -4.285 -2.490 -3.060 ;
+        POLYGON 0.640 -4.165 0.640 -4.175 0.625 -4.175 ;
+        RECT 0.640 -4.175 0.900 -3.060 ;
+        RECT 2.220 -3.910 2.520 0.440 ;
+        RECT 2.785 -1.900 3.620 -1.600 ;
+        RECT 3.865 -2.450 4.125 0.570 ;
+        RECT 2.870 -2.750 3.420 -2.450 ;
+        RECT 3.720 -2.750 4.270 -2.450 ;
+        RECT 4.670 -2.750 5.320 -2.450 ;
+        RECT 3.020 -3.910 3.280 -2.750 ;
+        POLYGON -2.490 -4.175 -2.380 -4.285 -2.490 -4.285 ;
+        POLYGON 0.625 -4.175 0.625 -4.275 0.520 -4.275 ;
+        RECT 0.625 -4.275 0.900 -4.175 ;
+        POLYGON 0.520 -4.275 0.520 -4.285 0.510 -4.285 ;
+        RECT 0.520 -4.285 0.890 -4.275 ;
+        POLYGON 0.890 -4.275 0.900 -4.275 0.890 -4.285 ;
+        POLYGON -2.750 -4.285 -2.380 -4.285 -2.380 -4.655 ;
+        POLYGON -2.380 -4.285 -2.205 -4.460 -2.380 -4.460 ;
+        POLYGON 0.510 -4.285 0.510 -4.365 0.425 -4.365 ;
+        RECT 0.510 -4.365 0.805 -4.285 ;
+        POLYGON 0.805 -4.285 0.890 -4.285 0.805 -4.365 ;
+        POLYGON 0.425 -4.365 0.425 -4.460 0.325 -4.460 ;
+        RECT 0.425 -4.460 0.500 -4.365 ;
+        RECT -2.380 -4.655 0.500 -4.460 ;
+        POLYGON 0.500 -4.365 0.805 -4.365 0.500 -4.655 ;
+        POLYGON -2.380 -4.655 -2.315 -4.655 -2.315 -4.720 ;
+        RECT -2.315 -4.720 0.425 -4.655 ;
+        POLYGON 0.425 -4.655 0.500 -4.655 0.425 -4.720 ;
+      LAYER Metal2 ;
+        RECT 2.160 -1.595 2.600 -1.495 ;
+        RECT 3.120 -1.595 3.580 -1.510 ;
+        RECT -5.310 -1.770 -4.860 -1.665 ;
+        RECT -4.420 -1.770 -4.010 -1.705 ;
+        RECT -5.310 -2.070 -4.010 -1.770 ;
+        RECT 2.160 -1.895 3.580 -1.595 ;
+        RECT 2.160 -1.995 2.600 -1.895 ;
+        RECT 3.120 -2.010 3.580 -1.895 ;
+        RECT -5.310 -2.160 -4.860 -2.070 ;
+        RECT -4.420 -2.140 -4.010 -2.070 ;
+        RECT -7.270 -2.520 -6.660 -2.410 ;
+        RECT 2.950 -2.450 3.330 -2.400 ;
+        RECT 3.800 -2.450 4.175 -2.350 ;
+        RECT 4.820 -2.450 5.280 -2.360 ;
+        RECT -6.035 -2.520 -5.635 -2.475 ;
+        RECT -5.185 -2.520 -4.800 -2.475 ;
+        RECT -7.270 -2.820 -4.800 -2.520 ;
+        RECT 2.870 -2.750 5.280 -2.450 ;
+        RECT 2.950 -2.770 3.330 -2.750 ;
+        RECT -7.270 -2.910 -6.660 -2.820 ;
+        RECT -6.035 -2.865 -5.635 -2.820 ;
+        RECT -5.185 -2.860 -4.800 -2.820 ;
+        RECT 3.800 -2.830 4.175 -2.750 ;
+        RECT 4.820 -2.860 5.280 -2.750 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__comp2_1
+MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__mux4_1 ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 15.850 BY 6.350 ;
+  PIN s0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 2.295000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.275 2.680 0.765 3.060 ;
+      LAYER Metal2 ;
+        RECT 0.305 2.670 0.905 3.070 ;
+    END
+  END s0
+  PIN VDD
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Nwell ;
+        RECT 0.000 3.120 15.850 6.350 ;
+      LAYER Metal1 ;
+        RECT 0.000 5.650 15.850 6.350 ;
+        RECT 0.550 3.555 0.800 5.650 ;
+        RECT 7.950 3.555 8.200 5.650 ;
+        RECT 12.500 3.555 12.750 5.650 ;
+        RECT 14.200 3.555 14.450 5.650 ;
+    END
+  END VDD
+  PIN y
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 15.050 3.280 15.300 5.300 ;
+        RECT 15.050 2.900 15.435 3.280 ;
+        RECT 15.050 1.050 15.300 2.900 ;
+      LAYER Metal2 ;
+        RECT 15.045 2.890 15.445 3.290 ;
+    END
+  END y
+  PIN VSS
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.550 0.700 0.800 1.900 ;
+        RECT 7.950 0.700 8.200 1.900 ;
+        RECT 12.500 0.700 12.750 1.900 ;
+        RECT 14.200 0.700 14.450 1.900 ;
+        RECT 0.000 0.000 15.850 0.700 ;
+    END
+  END VSS
+  PIN i0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.250 1.665 2.500 5.300 ;
+        RECT 2.185 1.285 2.565 1.665 ;
+        RECT 2.250 1.050 2.500 1.285 ;
+      LAYER Metal2 ;
+        RECT 2.175 1.275 2.575 1.675 ;
+    END
+  END i0
+  PIN i1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.657500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 4.250 2.775 4.500 5.255 ;
+        RECT 3.750 2.525 4.500 2.775 ;
+        RECT 3.750 2.150 4.000 2.525 ;
+        RECT 3.750 1.900 4.500 2.150 ;
+        RECT 4.250 1.665 4.500 1.900 ;
+        RECT 4.110 1.285 4.500 1.665 ;
+        RECT 4.250 1.050 4.500 1.285 ;
+      LAYER Metal2 ;
+        RECT 4.100 1.275 4.500 1.675 ;
+    END
+  END i1
+  PIN i2
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.275000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 5.100 3.555 5.350 5.255 ;
+        RECT 4.750 3.305 5.350 3.555 ;
+        RECT 4.750 1.900 5.000 3.305 ;
+        RECT 4.750 1.400 5.350 1.900 ;
+        RECT 5.100 1.050 5.350 1.400 ;
+      LAYER Metal2 ;
+        RECT 5.000 1.415 5.400 1.815 ;
+    END
+  END i2
+  PIN s1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 1.530000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 8.140 2.710 8.440 3.230 ;
+      LAYER Metal2 ;
+        RECT 8.090 2.840 8.490 3.240 ;
+    END
+  END s1
+  PIN i3
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 1.657500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 7.100 3.805 7.350 5.255 ;
+        RECT 7.100 3.555 7.600 3.805 ;
+        RECT 7.350 2.430 7.600 3.555 ;
+        RECT 7.250 2.130 7.740 2.430 ;
+        RECT 7.350 1.900 7.600 2.130 ;
+        RECT 7.100 1.650 7.600 1.900 ;
+        RECT 7.100 1.050 7.350 1.650 ;
+      LAYER Metal2 ;
+        RECT 7.280 2.080 7.680 2.480 ;
+    END
+  END i3
+  OBS
+      LAYER Metal1 ;
+        RECT 1.400 3.555 1.650 5.255 ;
+        RECT 3.100 4.570 3.350 5.300 ;
+        RECT 3.030 4.190 3.410 4.570 ;
+        RECT 1.050 3.305 1.650 3.555 ;
+        RECT 1.050 2.450 1.300 3.305 ;
+        RECT 1.050 2.200 1.950 2.450 ;
+        RECT 1.400 2.050 1.950 2.200 ;
+        RECT 1.400 1.050 1.650 2.050 ;
+        RECT 3.100 1.050 3.350 4.190 ;
+        RECT 3.600 3.005 4.000 3.405 ;
+        RECT 5.950 2.950 6.200 5.255 ;
+        RECT 5.950 2.700 6.450 2.950 ;
+        RECT 6.690 2.875 7.090 3.275 ;
+        RECT 5.420 2.150 5.910 2.450 ;
+        RECT 6.200 1.900 6.450 2.700 ;
+        RECT 8.800 2.290 9.050 5.300 ;
+        RECT 9.650 4.595 9.900 5.255 ;
+        RECT 9.585 4.215 9.965 4.595 ;
+        RECT 9.650 3.805 9.900 4.215 ;
+        RECT 8.660 1.910 9.050 2.290 ;
+        RECT 5.950 1.660 6.450 1.900 ;
+        RECT 5.885 1.650 6.450 1.660 ;
+        RECT 5.885 1.280 6.265 1.650 ;
+        RECT 5.950 1.050 6.200 1.280 ;
+        RECT 8.800 1.050 9.050 1.910 ;
+        RECT 9.300 3.555 9.900 3.805 ;
+        RECT 9.300 1.900 9.550 3.555 ;
+        RECT 10.500 3.190 10.750 5.300 ;
+        RECT 11.650 3.805 11.900 5.255 ;
+        RECT 11.650 3.555 12.250 3.805 ;
+        RECT 10.420 2.810 10.800 3.190 ;
+        RECT 11.310 2.880 11.710 3.280 ;
+        RECT 9.780 2.145 10.160 2.635 ;
+        RECT 9.300 1.650 9.900 1.900 ;
+        RECT 9.650 1.050 9.900 1.650 ;
+        RECT 10.500 1.050 10.750 2.810 ;
+        RECT 12.000 1.900 12.250 3.555 ;
+        RECT 12.800 2.280 13.100 2.805 ;
+        RECT 13.350 2.630 13.600 5.255 ;
+        RECT 14.440 2.630 14.820 2.670 ;
+        RECT 13.350 2.380 14.820 2.630 ;
+        RECT 11.650 1.665 12.250 1.900 ;
+        RECT 11.585 1.650 12.250 1.665 ;
+        RECT 11.585 1.285 11.965 1.650 ;
+        RECT 11.650 1.050 11.900 1.285 ;
+        RECT 13.350 1.050 13.600 2.380 ;
+        RECT 14.440 2.290 14.820 2.380 ;
+      LAYER Metal2 ;
+        RECT 3.020 4.525 3.420 4.580 ;
+        RECT 9.575 4.525 9.975 4.605 ;
+        RECT 3.020 4.245 9.975 4.525 ;
+        RECT 3.020 4.180 3.420 4.245 ;
+        RECT 9.575 4.205 9.975 4.245 ;
+        RECT 8.820 3.515 11.590 3.795 ;
+        RECT 3.600 3.330 4.000 3.405 ;
+        RECT 3.085 3.005 4.000 3.330 ;
+        RECT 3.085 2.450 3.365 3.005 ;
+        RECT 6.690 2.875 7.090 3.275 ;
+        RECT 6.700 2.500 6.980 2.875 ;
+        RECT 8.820 2.590 9.100 3.515 ;
+        RECT 11.310 3.280 11.590 3.515 ;
+        RECT 10.410 2.800 10.810 3.200 ;
+        RECT 11.310 2.880 11.710 3.280 ;
+        RECT 5.450 2.450 6.980 2.500 ;
+        RECT 1.550 2.220 6.980 2.450 ;
+        RECT 8.800 2.380 9.100 2.590 ;
+        RECT 10.530 2.550 10.810 2.800 ;
+        RECT 12.750 2.550 13.150 2.670 ;
+        RECT 9.770 2.380 10.170 2.500 ;
+        RECT 8.800 2.300 10.170 2.380 ;
+        RECT 1.550 2.170 5.850 2.220 ;
+        RECT 1.550 2.050 1.950 2.170 ;
+        RECT 5.450 2.100 5.850 2.170 ;
+        RECT 8.650 2.100 10.170 2.300 ;
+        RECT 10.530 2.270 13.150 2.550 ;
+        RECT 8.650 1.900 9.050 2.100 ;
+        RECT 5.875 1.595 6.275 1.670 ;
+        RECT 11.575 1.595 11.975 1.675 ;
+        RECT 5.875 1.315 11.975 1.595 ;
+        RECT 5.875 1.270 6.275 1.315 ;
+        RECT 11.575 1.275 11.975 1.315 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__mux4_1
+MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__oai211_1 ;
+  ORIGIN 3.000 2.850 ;
+  SIZE 4.450 BY 6.350 ;
+  PIN A0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -2.250 -0.250 -1.750 0.050 ;
+      LAYER Metal2 ;
+        RECT -2.250 -0.300 -1.750 0.100 ;
+    END
+  END A0
+  PIN A1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -1.450 -0.250 -0.950 0.050 ;
+      LAYER Metal2 ;
+        RECT -1.450 -0.300 -0.950 0.100 ;
+    END
+  END A1
+  PIN B
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.650 -0.250 -0.150 0.050 ;
+      LAYER Metal2 ;
+        RECT -0.650 -0.300 -0.150 0.100 ;
+    END
+  END B
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.150 -0.250 0.650 0.050 ;
+      LAYER Metal2 ;
+        RECT 0.150 -0.300 0.650 0.100 ;
+    END
+  END C
+  PIN Y
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 2.210000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -1.050 1.100 -0.800 1.850 ;
+        RECT 0.650 1.100 0.900 1.850 ;
+        RECT -1.050 0.850 0.900 1.100 ;
+        RECT 0.650 0.550 0.900 0.850 ;
+        RECT 0.650 0.300 1.300 0.550 ;
+        RECT 1.000 0.050 1.300 0.300 ;
+        RECT 0.950 -0.350 1.350 0.050 ;
+        RECT 1.000 -0.650 1.300 -0.350 ;
+        RECT 0.650 -0.950 1.300 -0.650 ;
+        RECT 0.650 -1.650 0.900 -0.950 ;
+      LAYER Metal2 ;
+        RECT 0.950 -0.350 1.350 0.050 ;
+    END
+  END Y
+  PIN vdd
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Nwell ;
+        RECT -3.000 0.300 1.450 3.500 ;
+      LAYER Metal1 ;
+        RECT -3.000 2.800 1.450 3.500 ;
+        RECT -2.450 1.500 -2.200 2.800 ;
+        RECT -0.200 1.500 0.050 2.800 ;
+    END
+  END vdd
+  PIN vss
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT -1.600 -2.150 -1.350 -1.200 ;
+        RECT -3.000 -2.850 1.450 -2.150 ;
+    END
+  END vss
+  OBS
+      LAYER Metal1 ;
+        RECT -2.450 -0.950 -0.500 -0.700 ;
+        RECT -2.450 -1.650 -2.200 -0.950 ;
+        RECT -0.750 -1.650 -0.500 -0.950 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__oai211_1
+MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__oai221_1 ;
+  ORIGIN 0.850 1.550 ;
+  SIZE 5.250 BY 6.350 ;
+  PIN A0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.350 0.850 0.150 1.150 ;
+      LAYER Metal2 ;
+        RECT -0.350 0.800 0.150 1.200 ;
+    END
+  END A0
+  PIN A1
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.900 0.850 1.400 1.150 ;
+      LAYER Metal2 ;
+        RECT 0.900 0.800 1.400 1.200 ;
+    END
+  END A1
+  PIN B0
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.500 1.000 3.000 1.300 ;
+      LAYER Metal2 ;
+        RECT 2.500 0.950 3.000 1.350 ;
+    END
+  END B0
+  PIN B1
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 3.300 1.000 3.800 1.300 ;
+      LAYER Metal2 ;
+        RECT 3.300 0.950 3.800 1.350 ;
+    END
+  END B1
+  PIN C
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.700 1.000 2.200 1.300 ;
+      LAYER Metal2 ;
+        RECT 1.700 0.950 2.200 1.350 ;
+    END
+  END C
+  PIN Y
+    DIRECTION OUTPUT ;
+    USE SIGNAL ;
+    ANTENNADIFFAREA 2.252500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.250 1.800 1.500 3.750 ;
+        RECT 3.500 2.000 3.750 3.750 ;
+        RECT 3.500 1.800 4.250 2.000 ;
+        RECT 0.400 1.700 4.250 1.800 ;
+        RECT 0.400 1.550 3.750 1.700 ;
+        RECT 0.400 -0.100 0.650 1.550 ;
+      LAYER Metal2 ;
+        RECT 3.800 1.650 4.200 2.050 ;
+    END
+  END Y
+  PIN vdd
+    DIRECTION INOUT ;
+    USE POWER ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Nwell ;
+        RECT -0.850 1.600 4.400 4.800 ;
+        RECT 1.250 1.550 3.750 1.600 ;
+      LAYER Metal1 ;
+        RECT -0.850 4.100 4.400 4.800 ;
+        RECT -0.150 2.050 0.100 4.100 ;
+        RECT 2.100 2.050 2.350 4.100 ;
+    END
+  END vdd
+  PIN vss
+    DIRECTION INOUT ;
+    USE GROUND ;
+    SHAPE ABUTMENT ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.950 -0.850 3.200 0.250 ;
+        RECT -0.850 -1.550 4.400 -0.850 ;
+    END
+  END vss
+  OBS
+      LAYER Metal1 ;
+        RECT 2.100 0.500 4.050 0.750 ;
+        RECT -0.450 -0.350 -0.200 0.500 ;
+        RECT 1.250 -0.350 1.500 0.500 ;
+        RECT 2.100 -0.350 2.350 0.500 ;
+        RECT 3.800 -0.350 4.050 0.500 ;
+        RECT -0.450 -0.600 1.500 -0.350 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__oai221_1
+MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
+  CLASS BLOCK ;
+  FOREIGN gf180mcu_osu_sc_gp9t3v3__oai33_1 ;
+  ORIGIN 3.100 0.150 ;
+  SIZE 6.450 BY 6.350 ;
+  PIN A
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -0.450 2.800 0.050 3.100 ;
+      LAYER Metal2 ;
+        RECT -0.450 2.750 0.050 3.150 ;
+    END
+  END A
+  PIN B
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -1.300 2.150 -0.800 2.450 ;
+      LAYER Metal2 ;
+        RECT -1.300 2.100 -0.800 2.500 ;
+    END
+  END B
+  PIN C
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -2.050 2.800 -1.550 3.100 ;
+      LAYER Metal2 ;
+        RECT -2.050 2.750 -1.550 3.150 ;
+    END
+  END C
+  PIN D
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.400 2.150 0.900 2.450 ;
+      LAYER Metal2 ;
+        RECT 0.400 2.100 0.900 2.500 ;
+    END
+  END D
+  PIN E
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 1.250 2.800 1.750 3.100 ;
+      LAYER Metal2 ;
+        RECT 1.250 2.750 1.750 3.150 ;
+    END
+  END E
+  PIN F
+    ANTENNAGATEAREA 0.765000 ;
+    PORT
+      LAYER Metal1 ;
+        RECT 2.000 2.150 2.500 2.450 ;
+      LAYER Metal2 ;
+        RECT 2.000 2.100 2.500 2.500 ;
+    END
+  END F
+  PIN OUT
+    ANTENNADIFFAREA 2.592500 ;
+    PORT
+      LAYER Metal1 ;
+        RECT -2.550 3.700 -2.300 5.150 ;
+        RECT 2.550 3.700 2.800 5.150 ;
+        RECT -2.550 3.450 2.950 3.700 ;
+        RECT -2.550 1.900 -2.300 3.450 ;
+        RECT 2.700 3.150 2.950 3.450 ;
+        RECT 2.650 2.750 3.050 3.150 ;
+        RECT -2.550 1.650 -0.600 1.900 ;
+        RECT -2.550 0.900 -2.300 1.650 ;
+        RECT -0.850 1.300 -0.600 1.650 ;
+      LAYER Metal2 ;
+        RECT 2.650 2.750 3.050 3.150 ;
+    END
+  END OUT
+  PIN VDD
+    USE POWER ;
+    PORT
+      LAYER Nwell ;
+        RECT -3.100 3.000 3.350 6.200 ;
+      LAYER Metal1 ;
+        RECT -3.100 5.500 3.350 6.200 ;
+        RECT 0.000 3.950 0.250 5.500 ;
+    END
+  END VDD
+  PIN VSS
+    USE GROUND ;
+    PORT
+      LAYER Metal1 ;
+        RECT 0.850 0.550 1.100 1.400 ;
+        RECT 2.550 0.550 2.800 1.750 ;
+        RECT -3.100 -0.150 3.350 0.550 ;
+    END
+  END VSS
+  OBS
+      LAYER Metal1 ;
+        RECT 0.000 1.650 1.950 1.900 ;
+        RECT -1.700 1.050 -1.450 1.400 ;
+        RECT 0.000 1.050 0.250 1.650 ;
+        RECT -1.700 0.800 0.250 1.050 ;
+        RECT 1.700 0.900 1.950 1.650 ;
+  END
+END gf180mcu_osu_sc_gp9t3v3__oai33_1
+
 END LIBRARY

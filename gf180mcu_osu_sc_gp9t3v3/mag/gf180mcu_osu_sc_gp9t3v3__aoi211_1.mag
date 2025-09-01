@@ -1,0 +1,254 @@
+magic
+tech gf180mcuD
+timestamp 1755765708
+<< nwell >>
+rect -18 45 71 109
+<< nmos >>
+rect 1 3 7 20
+rect 18 3 24 20
+rect 35 3 41 20
+rect 52 3 58 20
+<< pmos >>
+rect 1 54 7 88
+rect 18 54 24 88
+rect 35 54 41 88
+rect 46 54 52 88
+<< ndiff >>
+rect -9 16 1 20
+rect -9 5 -7 16
+rect -2 5 1 16
+rect -9 3 1 5
+rect 7 3 18 20
+rect 24 18 35 20
+rect 24 7 27 18
+rect 32 7 35 18
+rect 24 3 35 7
+rect 41 16 52 20
+rect 41 5 44 16
+rect 49 5 52 16
+rect 41 3 52 5
+rect 58 18 68 20
+rect 58 7 61 18
+rect 66 7 68 18
+rect 58 3 68 7
+<< pdiff >>
+rect -9 77 1 88
+rect -9 72 -7 77
+rect -2 72 1 77
+rect -9 67 1 72
+rect -9 62 -7 67
+rect -2 62 1 67
+rect -9 54 1 62
+rect 7 84 18 88
+rect 7 79 10 84
+rect 15 79 18 84
+rect 7 74 18 79
+rect 7 69 10 74
+rect 15 69 18 74
+rect 7 54 18 69
+rect 24 77 35 88
+rect 24 72 27 77
+rect 32 72 35 77
+rect 24 67 35 72
+rect 24 62 27 67
+rect 32 62 35 67
+rect 24 54 35 62
+rect 41 54 46 88
+rect 52 72 62 88
+rect 52 67 55 72
+rect 60 67 62 72
+rect 52 62 62 67
+rect 52 57 55 62
+rect 60 57 62 62
+rect 52 54 62 57
+<< ndiffc >>
+rect -7 5 -2 16
+rect 27 7 32 18
+rect 44 5 49 16
+rect 61 7 66 18
+<< pdiffc >>
+rect -7 72 -2 77
+rect -7 62 -2 67
+rect 10 79 15 84
+rect 10 69 15 74
+rect 27 72 32 77
+rect 27 62 32 67
+rect 55 67 60 72
+rect 55 57 60 62
+<< psubdiff >>
+rect -12 -6 3 -4
+rect -12 -11 -7 -6
+rect -2 -11 3 -6
+rect -12 -13 3 -11
+rect 9 -6 24 -4
+rect 9 -11 14 -6
+rect 19 -11 24 -6
+rect 9 -13 24 -11
+rect 30 -6 45 -4
+rect 30 -11 35 -6
+rect 40 -11 45 -6
+rect 30 -13 45 -11
+rect 51 -6 66 -4
+rect 51 -11 56 -6
+rect 61 -11 66 -6
+rect 51 -13 66 -11
+<< nsubdiff >>
+rect -12 102 3 104
+rect -12 97 -7 102
+rect -2 97 3 102
+rect -12 95 3 97
+rect 9 102 24 104
+rect 9 97 14 102
+rect 19 97 24 102
+rect 9 95 24 97
+rect 30 102 45 104
+rect 30 97 35 102
+rect 40 97 45 102
+rect 30 95 45 97
+rect 51 102 66 104
+rect 51 97 56 102
+rect 61 97 66 102
+rect 51 95 66 97
+<< psubdiffcont >>
+rect -7 -11 -2 -6
+rect 14 -11 19 -6
+rect 35 -11 40 -6
+rect 56 -11 61 -6
+<< nsubdiffcont >>
+rect -7 97 -2 102
+rect 14 97 19 102
+rect 35 97 40 102
+rect 56 97 61 102
+<< polysilicon >>
+rect 1 88 7 93
+rect 18 88 24 93
+rect 35 88 41 93
+rect 46 88 52 93
+rect 1 43 7 54
+rect 18 43 24 54
+rect 35 43 41 54
+rect -3 41 7 43
+rect -3 35 -1 41
+rect 5 35 7 41
+rect -3 33 7 35
+rect 14 41 24 43
+rect 14 35 16 41
+rect 22 35 24 41
+rect 14 33 24 35
+rect 30 41 41 43
+rect 30 35 32 41
+rect 38 35 41 41
+rect 30 33 41 35
+rect 46 43 52 54
+rect 46 41 58 43
+rect 46 35 48 41
+rect 54 35 58 41
+rect 46 33 58 35
+rect 1 20 7 33
+rect 18 20 24 33
+rect 35 20 41 33
+rect 52 20 58 33
+rect 1 -2 7 3
+rect 18 -2 24 3
+rect 35 -2 41 3
+rect 52 -2 58 3
+<< polycontact >>
+rect -1 35 5 41
+rect 16 35 22 41
+rect 32 35 38 41
+rect 48 35 54 41
+<< metal1 >>
+rect -18 102 71 109
+rect -18 97 -7 102
+rect -2 97 14 102
+rect 19 97 35 102
+rect 40 97 56 102
+rect 61 97 71 102
+rect -18 95 71 97
+rect 10 84 15 95
+rect -7 77 -2 79
+rect -7 67 -2 72
+rect 10 74 15 79
+rect 10 66 15 69
+rect 27 77 32 79
+rect 27 67 32 72
+rect -7 60 -2 62
+rect 27 60 32 62
+rect -7 55 32 60
+rect 55 72 60 74
+rect 55 62 60 67
+rect 55 52 60 57
+rect 55 46 66 52
+rect 61 42 66 46
+rect 61 41 71 42
+rect -3 35 -1 41
+rect 5 35 7 41
+rect 14 35 16 41
+rect 22 35 24 41
+rect 30 35 32 41
+rect 38 35 40 41
+rect 46 35 48 41
+rect 54 35 56 41
+rect 61 35 64 41
+rect 70 35 71 41
+rect 61 34 71 35
+rect 61 28 66 34
+rect 27 23 66 28
+rect 27 18 32 23
+rect 61 18 66 23
+rect -7 16 -2 18
+rect 27 5 32 7
+rect 44 16 49 18
+rect 61 5 66 7
+rect -7 -4 -2 5
+rect 44 -4 49 5
+rect -18 -6 71 -4
+rect -18 -11 -7 -6
+rect -2 -11 14 -6
+rect 19 -11 35 -6
+rect 40 -11 56 -6
+rect 61 -11 71 -6
+rect -18 -18 71 -11
+<< via1 >>
+rect -1 35 5 41
+rect 16 35 22 41
+rect 32 35 38 41
+rect 48 35 54 41
+rect 64 35 70 41
+<< metal2 >>
+rect -3 41 7 42
+rect -3 35 -1 41
+rect 5 35 7 41
+rect -3 34 7 35
+rect 14 41 24 42
+rect 14 35 16 41
+rect 22 35 24 41
+rect 14 34 24 35
+rect 30 41 40 42
+rect 30 35 32 41
+rect 38 35 40 41
+rect 30 34 40 35
+rect 46 41 56 42
+rect 46 35 48 41
+rect 54 35 56 41
+rect 46 34 56 35
+rect 63 41 71 42
+rect 63 35 64 41
+rect 70 35 71 41
+rect 63 34 71 35
+<< labels >>
+rlabel via1 64 35 70 41 1 Y
+port 11 e signal output
+rlabel psubdiffcont -7 -11 -2 -6 1 vss
+port 12 s ground bidirectional abutment
+rlabel metal2 32 35 38 41 1 B
+port 9 w signal input
+rlabel metal2 48 35 54 41 1 C
+port 10 w signal input
+rlabel nsubdiffcont -7 97 -2 102 1 vdd
+port 1 n power bidirectional abutment
+rlabel metal2 16 35 22 41 1 A0
+port 3 n signal input
+rlabel metal2 -1 35 5 41 1 A1
+port 8 w signal input
+<< end >>

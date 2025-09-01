@@ -1050,3 +1050,292 @@ X11 VDD B a_81_72# VDD pfet_03v3 ad=0.468p pd=2.25u as=0.425p ps=2.2u w=1.7u l=0
 
 
 ****EOF - gf180mcu_osu_sc_gp9t3v3__xor2_1.spice
+** sch_path: /home/usrvnc/gits/chipathon25-SILICON_BBI-sroutk/designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/and3/gf180mcu_osu_sc_gp9t3v3__and3_2.sch
+.subckt gf180mcu_osu_sc_gp9t3v3__and3_2 A B C Y VDD VSS
+*.PININFO A:I B:I Y:O C:I VDD:B VSS:B
+XM1 net1 A VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM3 net1 B VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM5 net1 C VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM6 Y net1 VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=2
+XM7 net1 A net2 VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM8 net2 B net3 VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM9 net3 C VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM10 Y net1 VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=2
+.ends
+** sch_path: /home/usrvnc/gits/chipathon25-SILICON_BBI-sroutk/designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/or3/gf180mcu_osu_sc_gp9t3v3__or3_1.sch
+.subckt gf180mcu_osu_sc_gp9t3v3__or3_1 A B C Y VDD VSS
+*.PININFO A:I B:I C:I VDD:B Y:O VSS:B
+XM4 net2 A VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM3 net3 A VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM1 net1 B net2 VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM2 net3 C net1 VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM5 net3 B VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM6 net3 C VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM7 Y net3 VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM8 Y net3 VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+.ends
+** sch_path: /home/usrvnc/gits/chipathon25-SILICON_BBI-sroutk/designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/nor3/gf180mcu_osu_sc_gp9t3v3__nor3_1.sch
+.subckt gf180mcu_osu_sc_gp9t3v3__nor3_1 A B C Y VDD VSS
+*.PININFO A:I B:I C:I VDD:B Y:O VSS:B
+XM4 net2 A VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM3 Y A VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM1 net1 B net2 VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM2 Y C net1 VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM5 Y B VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+XM6 Y C VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
++ ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
+.ends
+* SPICE3 file created from gf180mcu_osu_sc_gp9t3v3_aoi211_1.ext - technology: gf180mcuD
+.subckt gf180mcu_osu_sc_gp9t3v3__aoi211_1 A1 A0 B C Y VDD VSS
+*.PININFO Y:O A0:I A1:I B:I C:I VDD:B VSS:B
+X0 a_70_30# A1 VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X1 VDD A1 a_n90_540# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X2 Y C a_410_540# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X3 Y C VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 a_n90_540# A0 VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 VSS B Y VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X6 Y A0 a_70_30# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 a_410_540# B a_n90_540# VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+.ends
+* NGSPICE file created from gf180mcu_sah_sc_aoi222_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__aoi222_1 A1 A2 B1 B2 C2 C1 Y VDD VSS
+X0 VDD A2 a_n3268_1558# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X1 a_n3268_1558# B1 a_n2938_1558# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X2 VSS C2 a_n2412_658# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.102p ps=1.09u w=0.85u l=0.3u
+X3 a_n2412_658# C1 Y VSS nfet_03v3 ad=0.102p pd=1.09u as=0.425p ps=2.7u w=0.85u l=0.3u
+X4 Y C1 a_n2938_1558# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 a_n3268_1558# A1 VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X6 Y A2 a_n3268_658# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.102p ps=1.09u w=0.85u l=0.3u
+X7 a_n2938_1558# C2 Y VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 a_n3268_658# A1 VSS VSS nfet_03v3 ad=0.102p pd=1.09u as=0.425p ps=2.7u w=0.85u l=0.3u
+X9 a_n2938_1558# B2 a_n3268_1558# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X10 Y B2 a_n2840_658# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.102p ps=1.09u w=0.85u l=0.3u
+X11 a_n2840_658# B1 VSS VSS nfet_03v3 ad=0.102p pd=1.09u as=0.425p ps=2.7u w=0.85u l=0.3u
+.ends
+
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__aoi33_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__aoi33_1 A B C D E F OUT VDD VSS
+X0 a_1310_210# F VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X1 OUT D a_1480_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X2 a_1480_210# E a_1310_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 a_1310_720# F OUT VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X4 a_1310_720# D OUT VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 a_1820_210# A OUT VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X6 OUT E a_1310_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X7 VSS C a_1990_210# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X8 a_1990_210# B a_1820_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X9 VDD A a_1310_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X10 VDD C a_1310_720# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X11 a_1310_720# B VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+.ends
+
+* NGSPICE file created from 2bit_comp_1x.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__comp2_1 A0 A1 B0 B1 L G E VDD VSS
+X0 my_xor_0.Y a_700_n970# a_600_n920# VDD pfet_03v3 ad=0.7225p pd=2.55u as=0.425p ps=2.2u w=1.7u l=0.3u
+X1 a_2910_n920# E G VDD pfet_03v3 ad=0.935p pd=4.5u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X2 VDD my_nxor_0.Y a_1240_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.935p ps=4.5u w=1.7u l=0.3u
+X3 my_nand_0.Y my_nxor_0.Y a_1880_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X4 VSS a_3100_610# a_3390_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.2125p ps=1.35u w=0.85u l=0.3u
+X5 VDD my_nand_0.B my_nand_0.Y VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X6 a_3390_720# a_2670_210# L VDD pfet_03v3 ad=0.425p pd=2.2u as=0.7225p ps=2.55u w=1.7u l=0.3u
+X7 a_3000_210# my_nor_0.Y VSS VSS nfet_03v3 ad=0.2125p pd=1.35u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X8 VDD my_xor_0.Y my_nand_0.B VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X9 VDD my_nor_0.Y a_2670_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X10 VSS a_700_n970# a_990_n240# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.2125p ps=1.35u w=0.85u l=0.3u
+X11 a_3250_n920# L VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X12 a_990_n240# a_270_n920# my_xor_0.Y VSS nfet_03v3 ad=0.2125p pd=1.35u as=0.36125p ps=1.7u w=0.85u l=0.3u
+X13 a_1580_720# my_nxor_0.Y VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X14 a_2460_n920# my_nand_0.Y VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X15 VDD my_nand_0.Y a_3390_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.425p ps=2.2u w=1.7u l=0.3u
+X16 a_3100_610# my_nand_0.Y VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X17 a_3000_720# my_nor_0.Y VDD VDD pfet_03v3 ad=0.425p pd=2.2u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X18 L my_nand_0.Y a_3000_210# VSS nfet_03v3 ad=0.36125p pd=1.7u as=0.2125p ps=1.35u w=0.85u l=0.3u
+X19 VSS A1 a_780_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.14875p ps=1.2u w=0.85u l=0.3u
+X20 a_1820_n240# B0 my_nand_0.B VSS nfet_03v3 ad=0.10625p pd=1.1u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X21 VSS my_xor_0.Y E VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X22 a_600_n920# B0 VDD VDD pfet_03v3 ad=0.425p pd=2.2u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X23 a_2120_n920# my_xor_0.Y E VDD pfet_03v3 ad=0.935p pd=4.5u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X24 VSS B1 a_90_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X25 a_780_210# a_90_210# my_nxor_0.Y VSS nfet_03v3 ad=0.14875p pd=1.2u as=0.37375p ps=1.75u w=0.85u l=0.3u
+X26 G E a_3250_n920# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X27 a_3100_610# my_nand_0.Y VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X28 VSS my_nand_0.B a_2220_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.10625p ps=1.1u w=0.85u l=0.3u
+X29 VSS B0 a_270_n920# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X30 VDD A1 a_780_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.2975p ps=2.05u w=1.7u l=0.3u
+X31 L a_3100_610# a_3000_720# VDD pfet_03v3 ad=0.7225p pd=2.55u as=0.425p ps=2.2u w=1.7u l=0.3u
+X32 my_nxor_0.Y a_490_160# a_420_210# VSS nfet_03v3 ad=0.37375p pd=1.75u as=0.14875p ps=1.2u w=0.85u l=0.3u
+X33 VDD L a_2910_n920# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.935p ps=4.5u w=1.7u l=0.3u
+X34 VDD B1 a_90_210# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X35 a_780_720# B1 my_nxor_0.Y VDD pfet_03v3 ad=0.2975p pd=2.05u as=0.7225p ps=2.55u w=1.7u l=0.3u
+X36 a_420_210# B1 VSS VSS nfet_03v3 ad=0.14875p pd=1.2u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X37 a_700_n970# A0 VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X38 a_1480_n240# my_xor_0.Y VSS VSS nfet_03v3 ad=0.4675p pd=2.8u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X39 a_490_160# A1 VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X40 my_nor_0.Y my_nxor_0.Y VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X41 my_xor_0.Y A0 a_600_n240# VSS nfet_03v3 ad=0.36125p pd=1.7u as=0.2125p ps=1.35u w=0.85u l=0.3u
+X42 a_1880_210# my_nand_0.B VSS VSS nfet_03v3 ad=0.4675p pd=2.8u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X43 G L VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X44 VDD A0 a_990_n920# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.425p ps=2.2u w=1.7u l=0.3u
+X45 my_nxor_0.Y a_490_160# a_420_720# VDD pfet_03v3 ad=0.7225p pd=2.55u as=0.2975p ps=2.05u w=1.7u l=0.3u
+X46 a_990_n920# a_270_n920# my_xor_0.Y VDD pfet_03v3 ad=0.425p pd=2.2u as=0.7225p ps=2.55u w=1.7u l=0.3u
+X47 my_nor_0.Y B1 a_1580_720# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X48 my_nand_0.B B0 VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X49 E my_xor_0.Y a_2460_n920# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X50 a_420_720# a_90_210# VDD VDD pfet_03v3 ad=0.2975p pd=2.05u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X51 a_490_160# A1 VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X52 VSS B1 my_nor_0.Y VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X53 VSS my_xor_0.Y a_1820_n240# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.10625p ps=1.1u w=0.85u l=0.3u
+X54 VDD my_nand_0.Y a_2120_n920# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.935p ps=4.5u w=1.7u l=0.3u
+X55 a_1240_720# B1 my_nor_0.Y VDD pfet_03v3 ad=0.935p pd=4.5u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X56 a_600_n240# B0 VSS VSS nfet_03v3 ad=0.2125p pd=1.35u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X57 a_3390_210# a_2670_210# L VSS nfet_03v3 ad=0.2125p pd=1.35u as=0.36125p ps=1.7u w=0.85u l=0.3u
+X58 my_nand_0.B B0 a_1480_n240# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X59 E my_nand_0.Y VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X60 VDD B0 a_270_n920# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X61 my_nand_0.Y my_nxor_0.Y VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X62 VSS my_nor_0.Y a_2670_210# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X63 a_2220_210# my_nxor_0.Y my_nand_0.Y VSS nfet_03v3 ad=0.10625p pd=1.1u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X64 VSS E G VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X65 a_700_n970# A0 VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+.ends
+
+* NGSPICE file created from gf180mcu_osu_sc_gp9t3v3__mux4_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__mux4_1 I0 I1 I2 I3 S0 S1 Y VDD VSS
+X0 a_2640_210# a_2070_210# VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X1 I1 S0 a_590_210# VSS nfet_03v3 ad=0.5525p pd=3u as=0.2975p ps=1.55u w=0.85u l=0.3u
+X2 I3 S0 a_1160_210# VSS nfet_03v3 ad=0.5525p pd=3u as=0.2975p ps=1.55u w=0.85u l=0.3u
+X3 a_250_210# S0 VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X4 a_2640_210# a_2070_210# VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.425p ps=2.7u w=0.85u l=0.3u
+X5 a_1730_210# S1 VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X6 a_2070_210# S1 a_590_210# VDD pfet_03v3 ad=0.595p pd=2.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X7 a_250_210# S0 VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.425p ps=2.7u w=0.85u l=0.3u
+X8 Y a_2640_210# VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X9 a_1730_210# S1 VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.425p ps=2.7u w=0.85u l=0.3u
+X10 a_590_210# S0 I0 VDD pfet_03v3 ad=0.595p pd=2.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X11 a_2070_210# a_1730_210# a_590_210# VSS nfet_03v3 ad=0.2975p pd=1.55u as=0.425p ps=2.7u w=0.85u l=0.3u
+X12 a_1160_210# S0 I2 VDD pfet_03v3 ad=0.595p pd=2.4u as=0.85p ps=4.4u w=1.7u l=0.3u
+X13 Y a_2640_210# VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.425p ps=2.7u w=0.85u l=0.3u
+X14 a_590_210# a_250_210# I0 VSS nfet_03v3 ad=0.2975p pd=1.55u as=0.425p ps=2.7u w=0.85u l=0.3u
+X15 a_1160_210# a_250_210# I2 VSS nfet_03v3 ad=0.2975p pd=1.55u as=0.425p ps=2.7u w=0.85u l=0.3u
+X16 a_1160_210# a_1730_210# a_2070_210# VDD pfet_03v3 ad=1.105p pd=4.7u as=0.595p ps=2.4u w=1.7u l=0.3u
+X17 I1 a_250_210# a_590_210# VDD pfet_03v3 ad=1.105p pd=4.7u as=0.595p ps=2.4u w=1.7u l=0.3u
+X18 a_1160_210# S1 a_2070_210# VSS nfet_03v3 ad=0.5525p pd=3u as=0.2975p ps=1.55u w=0.85u l=0.3u
+X19 I3 a_250_210# a_1160_210# VDD pfet_03v3 ad=1.105p pd=4.7u as=0.595p ps=2.4u w=1.7u l=0.3u
+.ends
+
+* SPICE3 file created from gf180mcu_gp9t3v3_oai211_1.ext - technology: gf180mcuD
+.subckt gf180mcu_osu_sc_gp9t3v3__oai211_1 A0 A1 B C Y VDD VSS
+X0 Y C VDD VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X1 a_n350_150# A0 VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
+X2 a_n510_n360# A1 VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 Y C a_n10_n360# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.10625p ps=1.1u w=0.85u l=0.3u
+X4 Y A1 a_n350_150# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X5 VDD B Y VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X6 VSS A0 a_n510_n360# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X7 a_n10_n360# B a_n510_n360# VSS nfet_03v3 ad=0.10625p pd=1.1u as=0.23375p ps=1.4u w=0.85u l=0.3u
+.ends
+* NGSPICE file created from gf180mcu_gp9t3v3_oai221_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp9t3v3__oai221_1 A0 A1 B0 B1 C Y VDD VSS
+X0 a_n110_n70# A1 Y VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X1 Y B1 a_560_410# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X2 a_390_n70# C a_n110_n70# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 a_390_n70# B1 VSS VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X4 a_110_410# A0 VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.85p ps=4.4u w=1.7u l=0.3u
+X5 Y A1 a_110_410# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X6 VSS B0 a_390_n70# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 VDD C Y VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 Y A0 a_n110_n70# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X9 a_560_410# B0 VDD VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.4675p ps=2.25u w=1.7u l=0.3u
+.ends
+
+* SPICE3 file created from gf180mcu_osu_sc_gp9t3v3__oai33_1.ext - technology: gf180mcuD
+.subckt gf180mcu_osu_sc_gp9t3v3__oai33_1 A B C D E F OUT VDD VSS
+X0 a_n200_690# B a_n370_690# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X1 a_n370_180# C OUT VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.425p ps=2.7u w=0.85u l=0.3u
+X2 a_n370_180# E VSS VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X3 a_n370_690# C OUT VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X4 a_310_690# E a_140_690# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 VSS D a_n370_180# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X6 VSS F a_n370_180# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X7 OUT F a_310_690# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 a_n370_180# A OUT VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+X9 a_140_690# D VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X10 VDD A a_n200_690# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X11 OUT B a_n370_180# VSS nfet_03v3 ad=0.23375p pd=1.4u as=0.23375p ps=1.4u w=0.85u l=0.3u
+.ends
+* NGSPICE file created from sdffrnq.ext - technology: gf180mcuD
+
+.subckt sdffrnq_4_mux a_640_n30# a_1120_n30# a_459_n30# a_1120_460# w_330_300#
++ a_830_n30# a_580_300# VSUBS
+X0 a_580_n190# a_580_300# a_1120_460# w_330_300# pfet_03v3 ad=0.935p pd=4.5u as=1.105p ps=4.7u w=1.7u l=0.3u
+X1 a_640_n30# a_580_300# a_459_n30# w_330_300# pfet_03v3 ad=0.5525p pd=2.35u as=1.0285p ps=4.61u w=1.7u l=0.3u
+X2 a_830_n30# a_580_300# a_640_n30# VSUBS nfet_03v3 ad=0.5525p pd=3u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X3 a_580_n190# a_580_300# a_1120_n30# VSUBS nfet_03v3 ad=0.4675p pd=2.8u as=0.5525p ps=3u w=0.85u l=0.3u
+X4 a_640_n30# a_580_n190# a_459_n30# VSUBS nfet_03v3 ad=0.27625p pd=1.5u as=0.51425p ps=2.91u w=0.85u l=0.3u
+X5 a_830_n30# a_580_n190# a_640_n30# w_330_300# pfet_03v3 ad=1.105p pd=4.7u as=0.5525p ps=2.35u w=1.7u l=0.3u
+.ends
+
+.subckt gf180mcu_osu_sc_gp9t3v3__sdffrnq_4 A B S CLK RN Q VDD VSS
+Xsdffrnq_4_mux_0 a_2090_270# VSS A VDD VDD B S VSS sdffrnq_4_mux
+X0 a_n870_270# RN VDD VDD pfet_03v3 ad=1.275p pd=4.9u as=0.935p ps=4.5u w=1.7u l=0.3u
+X1 a_n1490_270# a_n1300_270# VSS VSS nfet_03v3 ad=0.54825p pd=2.99u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X2 a_n1300_270# a_n870_270# VSS VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X3 a_120_270# a_n870_270# VSS VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X4 a_1370_270# CLK a_1620_320# VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.19125p ps=1.3u w=0.85u l=0.3u
+X5 a_n730_520# CLK a_n430_810# VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.3825p ps=2.15u w=1.7u l=0.3u
+X6 a_n340_270# CLK VSS VSS nfet_03v3 ad=0.765p pd=3.5u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X7 VDD a_n730_520# a_n780_810# VDD pfet_03v3 ad=0.765p pd=2.6u as=0.2125p ps=1.95u w=1.7u l=0.3u
+X8 a_1620_810# a_120_270# VDD VDD pfet_03v3 ad=0.3825p pd=2.15u as=0.5525p ps=2.35u w=1.7u l=0.3u
+X9 VDD a_120_270# a_n90_810# VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.8925p ps=2.75u w=1.7u l=0.3u
+X10 a_1710_650# CLK VDD VDD pfet_03v3 ad=1.53p pd=5.2u as=0.5525p ps=2.35u w=1.7u l=0.3u
+X11 a_1270_810# a_n870_270# a_120_270# VDD pfet_03v3 ad=0.425p pd=2.2u as=0.935p ps=4.5u w=1.7u l=0.3u
+X12 a_n730_520# a_n340_270# a_n430_320# VSS nfet_03v3 ad=0.61625p pd=2.3u as=0.19125p ps=1.3u w=0.85u l=0.3u
+X13 a_1620_320# a_120_270# VSS VSS nfet_03v3 ad=0.19125p pd=1.3u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X14 VSS a_n730_520# a_n1300_270# VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X15 a_70_320# CLK a_n730_520# VSS nfet_03v3 ad=0.10625p pd=1.1u as=0.61625p ps=2.3u w=0.85u l=0.3u
+X16 VDD a_n1490_270# Q VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.935p ps=4.5u w=1.7u l=0.3u
+X17 a_n90_810# a_n340_270# a_n730_520# VDD pfet_03v3 ad=0.8925p pd=2.75u as=0.5525p ps=2.35u w=1.7u l=0.3u
+X18 VSS a_120_270# a_70_320# VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.10625p ps=1.1u w=0.85u l=0.3u
+X19 a_n430_810# a_n1300_270# VDD VDD pfet_03v3 ad=0.3825p pd=2.15u as=0.765p ps=2.6u w=1.7u l=0.3u
+X20 VDD a_1370_270# a_1270_810# VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.425p ps=2.2u w=1.7u l=0.3u
+X21 a_1960_810# CLK a_1370_270# VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.5525p ps=2.35u w=1.7u l=0.3u
+X22 a_1710_650# CLK VSS VSS nfet_03v3 ad=0.765p pd=3.5u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X23 a_n780_810# a_n870_270# a_n1300_270# VDD pfet_03v3 ad=0.2125p pd=1.95u as=0.935p ps=4.5u w=1.7u l=0.3u
+X24 VDD a_2090_270# a_1960_810# VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.5525p ps=2.35u w=1.7u l=0.3u
+X25 VSS a_n1490_270# Q VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X26 VSS a_1370_270# a_120_270# VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X27 a_1960_320# a_1710_650# a_1370_270# VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X28 a_n430_320# a_n1300_270# VSS VSS nfet_03v3 ad=0.19125p pd=1.3u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X29 a_n1490_270# a_n1300_270# VDD VDD pfet_03v3 ad=1.0965p pd=4.69u as=0.5525p ps=2.35u w=1.7u l=0.3u
+X30 a_1370_270# a_1710_650# a_1620_810# VDD pfet_03v3 ad=0.5525p pd=2.35u as=0.3825p ps=2.15u w=1.7u l=0.3u
+X31 VSS a_2090_270# a_1960_320# VSS nfet_03v3 ad=0.27625p pd=1.5u as=0.27625p ps=1.5u w=0.85u l=0.3u
+X32 a_n870_270# RN VSS VSS nfet_03v3 ad=0.6375p pd=3.2u as=0.4675p ps=2.8u w=0.85u l=0.3u
+X33 a_n340_270# CLK VDD VDD pfet_03v3 ad=1.53p pd=5.2u as=0.5525p ps=2.35u w=1.7u l=0.3u
+.ends
+

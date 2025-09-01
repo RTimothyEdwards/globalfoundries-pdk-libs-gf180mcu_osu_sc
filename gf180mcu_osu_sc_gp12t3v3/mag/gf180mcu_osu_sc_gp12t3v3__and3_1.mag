@@ -1,0 +1,204 @@
+magic
+tech gf180mcuD
+timestamp 1756568545
+<< nwell >>
+rect 0 102 95 166
+<< pwell >>
+rect 0 0 95 102
+<< nmos >>
+rect 19 21 25 38
+rect 36 21 42 38
+rect 53 21 59 38
+rect 70 21 76 38
+<< pmos >>
+rect 19 111 25 145
+rect 36 111 42 145
+rect 53 111 59 145
+rect 70 111 76 145
+<< ndiff >>
+rect 9 36 19 38
+rect 9 23 11 36
+rect 16 23 19 36
+rect 9 21 19 23
+rect 25 21 36 38
+rect 42 21 53 38
+rect 59 36 70 38
+rect 59 23 62 36
+rect 67 23 70 36
+rect 59 21 70 23
+rect 76 36 86 38
+rect 76 23 79 36
+rect 84 23 86 36
+rect 76 21 86 23
+<< pdiff >>
+rect 9 143 19 145
+rect 9 113 11 143
+rect 16 113 19 143
+rect 9 111 19 113
+rect 25 143 36 145
+rect 25 113 28 143
+rect 33 113 36 143
+rect 25 111 36 113
+rect 42 143 53 145
+rect 42 113 45 143
+rect 50 113 53 143
+rect 42 111 53 113
+rect 59 143 70 145
+rect 59 113 62 143
+rect 67 113 70 143
+rect 59 111 70 113
+rect 76 143 86 145
+rect 76 113 79 143
+rect 84 113 86 143
+rect 76 111 86 113
+<< ndiffc >>
+rect 11 23 16 36
+rect 62 23 67 36
+rect 79 23 84 36
+<< pdiffc >>
+rect 11 113 16 143
+rect 28 113 33 143
+rect 45 113 50 143
+rect 62 113 67 143
+rect 79 113 84 143
+<< psubdiff >>
+rect 31 12 46 14
+rect 31 7 36 12
+rect 41 7 46 12
+rect 31 5 46 7
+rect 57 12 72 14
+rect 57 7 62 12
+rect 67 7 72 12
+rect 57 5 72 7
+<< nsubdiff >>
+rect 23 159 38 161
+rect 23 154 28 159
+rect 33 154 38 159
+rect 23 152 38 154
+rect 57 159 72 161
+rect 57 154 62 159
+rect 67 154 72 159
+rect 57 152 72 154
+<< psubdiffcont >>
+rect 36 7 41 12
+rect 62 7 67 12
+<< nsubdiffcont >>
+rect 28 154 33 159
+rect 62 154 67 159
+<< polysilicon >>
+rect 19 145 25 150
+rect 36 145 42 150
+rect 53 145 59 150
+rect 70 145 76 150
+rect 19 80 25 111
+rect 11 78 25 80
+rect 11 72 14 78
+rect 20 72 25 78
+rect 11 70 25 72
+rect 19 38 25 70
+rect 36 67 42 111
+rect 36 65 48 67
+rect 36 59 40 65
+rect 46 59 48 65
+rect 36 57 48 59
+rect 36 38 42 57
+rect 53 54 59 111
+rect 70 94 76 111
+rect 65 92 76 94
+rect 65 86 67 92
+rect 72 86 76 92
+rect 65 84 76 86
+rect 53 52 65 54
+rect 53 46 56 52
+rect 62 46 65 52
+rect 53 44 65 46
+rect 53 38 59 44
+rect 70 38 76 84
+rect 19 16 25 21
+rect 36 16 42 21
+rect 53 16 59 21
+rect 70 16 76 21
+<< polycontact >>
+rect 14 72 20 78
+rect 40 59 46 65
+rect 67 86 72 92
+rect 56 46 62 52
+<< metal1 >>
+rect 0 159 95 166
+rect 0 154 28 159
+rect 33 154 62 159
+rect 67 154 95 159
+rect 0 152 95 154
+rect 11 143 16 145
+rect 11 92 16 113
+rect 28 143 33 152
+rect 28 111 33 113
+rect 45 143 50 145
+rect 45 92 50 113
+rect 62 143 67 152
+rect 62 111 67 113
+rect 79 143 84 145
+rect 79 106 84 113
+rect 79 105 88 106
+rect 79 99 80 105
+rect 86 99 88 105
+rect 79 98 88 99
+rect 11 86 67 92
+rect 72 86 74 92
+rect 12 72 14 78
+rect 20 72 22 78
+rect 28 45 33 86
+rect 38 59 40 65
+rect 46 59 48 65
+rect 54 46 56 52
+rect 62 46 64 52
+rect 11 40 33 45
+rect 11 36 16 40
+rect 11 21 16 23
+rect 62 36 67 38
+rect 62 14 67 23
+rect 79 36 84 98
+rect 79 21 84 23
+rect 0 12 95 14
+rect 0 7 36 12
+rect 41 7 62 12
+rect 67 7 95 12
+rect 0 0 95 7
+<< via1 >>
+rect 80 99 86 105
+rect 14 72 20 78
+rect 40 59 46 65
+rect 56 46 62 52
+<< metal2 >>
+rect 79 105 88 106
+rect 79 99 80 105
+rect 86 99 88 105
+rect 79 98 88 99
+rect 12 78 22 79
+rect 12 72 14 78
+rect 20 72 22 78
+rect 12 71 22 72
+rect 38 65 48 66
+rect 38 59 40 65
+rect 46 59 48 65
+rect 38 58 48 59
+rect 54 52 64 53
+rect 54 46 56 52
+rect 62 46 64 52
+rect 54 45 64 46
+<< labels >>
+flabel metal2 12 71 22 79 0 FreeSans 48 0 0 0 A
+port 1 nsew
+flabel metal2 38 58 48 66 0 FreeSans 48 0 0 0 B
+port 2 nsew
+flabel metal2 79 98 88 106 0 FreeSans 48 0 0 0 Y
+port 3 nsew
+flabel metal2 54 45 64 53 0 FreeSans 48 0 0 0 C
+port 4 nsew
+flabel metal1 9 155 24 163 0 FreeSans 48 0 0 0 VDD
+port 5 nsew
+flabel metal1 9 3 24 11 0 FreeSans 48 0 0 0 VSS
+port 6 nsew
+<< properties >>
+string FIXED_BBOX 0 0 95 166
+<< end >>

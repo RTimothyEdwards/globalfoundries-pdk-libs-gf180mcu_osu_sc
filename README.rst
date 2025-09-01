@@ -8,6 +8,21 @@ This repository will contain a new set of standard cells for the
 These standard cells are being designed by James E. Stine, Jr. from the
 VLSI Computer Architecture Research Group at Oklahoma State University.
 
+The fork of the project at https://github.com/RTimothyEdwards contains a
+number of additional standard cells that extend the original set, which
+were generated as part of the IEEE-SSCS "Chipathon" 2025 program.  The
+extensions remain "untrusted" until validated on silicon;  once validated,
+they will be folded back into the original upstream repository.  Until such
+time, use at your own risk!
+
+Work remaining to do on Chipathon 2025 extensions:
+gf180mcu_osu_sc_gp12t3v3:
+	1. Need verilog views of cells and3_1, nand3_1, and nor3_1
+
+gf180mcu_osu_sc_gp9t3v3:
+	1. Need verilog views of cells and3_2, nor3_1, and or3_1
+	2. Liberty view of nor3_1 is missing
+
 VLSI Computer Architecture Research Group
 =========================================
 
