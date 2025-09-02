@@ -4554,117 +4554,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
         RECT 0.250 2.900 2.200 3.150 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__aoi221_1
-MACRO gf180mcu_osu_sc_gp9t3v3__aoi222_1
-  CLASS BLOCK ;
-  FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi222_1 ;
-  ORIGIN 17.590 -2.240 ;
-  SIZE 7.200 BY 8.300 ;
-  PIN VSS
-    USE GROUND ;
-    PORT
-      LAYER Metal1 ;
-        RECT -17.040 2.940 -16.790 4.140 ;
-        RECT -14.900 2.940 -14.650 4.140 ;
-        RECT -11.370 2.940 -11.120 4.140 ;
-        RECT -17.590 2.240 -10.390 2.940 ;
-    END
-  END VSS
-  PIN VDD
-    USE POWER ;
-    PORT
-      LAYER Nwell ;
-        RECT -17.590 7.340 -10.390 10.540 ;
-      LAYER Metal1 ;
-        RECT -17.590 9.840 -10.390 10.540 ;
-        RECT -17.040 7.790 -16.790 9.840 ;
-        RECT -15.340 7.790 -15.090 9.840 ;
-    END
-  END VDD
-  PIN Y
-    ANTENNADIFFAREA 2.210000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -12.040 8.145 -11.790 9.490 ;
-        RECT -12.080 7.790 -11.750 8.145 ;
-        RECT -12.045 4.600 -11.785 7.095 ;
-        RECT -15.650 4.370 -11.785 4.600 ;
-        RECT -15.650 3.290 -15.400 4.370 ;
-        RECT -13.510 3.290 -13.260 4.370 ;
-        RECT -12.760 3.290 -12.510 4.370 ;
-      LAYER Metal2 ;
-        RECT -12.055 6.715 -11.775 8.170 ;
-    END
-  END Y
-  PIN A1
-    ANTENNAGATEAREA 0.765000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -16.815 6.830 -16.415 7.230 ;
-      LAYER Metal2 ;
-        RECT -16.815 6.830 -16.415 7.230 ;
-    END
-  END A1
-  PIN A2
-    ANTENNAGATEAREA 0.765000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -15.840 6.150 -15.440 6.550 ;
-      LAYER Metal2 ;
-        RECT -15.840 6.150 -15.440 6.550 ;
-    END
-  END A2
-  PIN B1
-    ANTENNAGATEAREA 0.765000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -14.235 5.470 -13.835 5.870 ;
-      LAYER Metal2 ;
-        RECT -14.235 5.470 -13.835 5.870 ;
-    END
-  END B1
-  PIN B2
-    ANTENNAGATEAREA 0.765000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -13.395 4.830 -12.995 5.230 ;
-      LAYER Metal2 ;
-        RECT -13.395 4.830 -12.995 5.230 ;
-    END
-  END B2
-  PIN C2
-    ANTENNAGATEAREA 0.765000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -11.495 5.465 -11.095 5.865 ;
-      LAYER Metal2 ;
-        RECT -11.495 5.465 -11.095 5.865 ;
-    END
-  END C2
-  PIN C1
-    ANTENNAGATEAREA 0.765000 ;
-    PORT
-      LAYER Metal1 ;
-        RECT -12.750 6.150 -12.350 6.550 ;
-      LAYER Metal2 ;
-        RECT -12.750 6.150 -12.350 6.550 ;
-    END
-  END C1
-  OBS
-      LAYER Metal1 ;
-        RECT -16.190 8.780 -15.940 9.490 ;
-        RECT -16.205 8.500 -15.925 8.780 ;
-        RECT -16.190 7.790 -15.940 8.500 ;
-        RECT -14.590 7.560 -14.340 9.490 ;
-        RECT -13.740 8.780 -13.490 9.490 ;
-        RECT -13.755 8.500 -13.475 8.780 ;
-        RECT -13.740 7.790 -13.490 8.500 ;
-        RECT -12.890 7.560 -12.640 9.490 ;
-        RECT -11.190 7.560 -10.940 9.490 ;
-        RECT -14.590 7.330 -10.940 7.560 ;
-      LAYER Metal2 ;
-        RECT -16.255 8.500 -13.425 8.780 ;
-  END
-END gf180mcu_osu_sc_gp9t3v3__aoi222_1
+
 MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
   CLASS BLOCK ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi33_1 ;
@@ -4777,6 +4667,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
         RECT 8.400 3.600 10.350 3.850 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__aoi33_1
+
 MACRO gf180mcu_osu_sc_gp9t3v3__comp2_1
   CLASS BLOCK ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__comp2_1 ;
@@ -4964,6 +4855,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__comp2_1
         RECT 4.820 -2.860 5.280 -2.750 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__comp2_1
+
 MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
   CLASS BLOCK ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__mux4_1 ;
@@ -5179,6 +5071,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
         RECT 11.575 1.275 11.975 1.315 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__mux4_1
+
 MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
   CLASS BLOCK ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__oai211_1 ;
@@ -5278,6 +5171,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
         RECT -0.750 -1.650 -0.500 -0.950 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__oai211_1
+
 MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
   CLASS BLOCK ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__oai221_1 ;
@@ -5388,6 +5282,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
         RECT -0.450 -0.600 1.500 -0.350 ;
   END
 END gf180mcu_osu_sc_gp9t3v3__oai221_1
+
 MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
   CLASS BLOCK ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__oai33_1 ;

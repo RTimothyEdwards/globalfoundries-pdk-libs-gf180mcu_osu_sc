@@ -1046,10 +1046,10 @@ X11 VSS a_47_96# a_76_21# VSS nfet_03v3 ad=0.233p pd=1.4u as=0.105p ps=1.1u w=0.
 .ends
 
 
-
 ****EOF - gf180mcu_osu_sc_gp12t3v3__xor2_1.spice
+
 ** sch_path: /foss/designs/gits/chipathon25-SILICON_BBI-pbiswal/designs/libs/core_digital/gf180mcu_osu_sc_gp12t3v3/cells/and3/gf180mcu_osu_sc_gp12t3v3__and3_1.sch
-**.subckt gf180mcu_osu_sc_gp12t3v3__and3_1 A B Y C VDD VSS
+.subckt gf180mcu_osu_sc_gp12t3v3__and3_1 A B Y C VDD VSS
 *.ipin A
 *.ipin B
 *.opin Y
@@ -1072,8 +1072,8 @@ XM9 net3 C VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
 XM10 Y net1 VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
-**.ends
-.end
+.ends
+
 ** sch_path: /home/usrvnc/gits/chipathon25-SILICON_BBI-sroutk/designs/libs/core_digital/gf180mcu_osu_sc_gp12t3v3/cells/nand3/gf180mcu_osu_sc_gp12t3v3__nand3_1.sch
 .subckt gf180mcu_osu_sc_gp12t3v3__nand3_1 A B Y C VDD VSS
 *.PININFO A:I B:I Y:O C:I VDD:B VSS:B
@@ -1090,7 +1090,8 @@ XM5 Y B VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' a
 XM6 Y C VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
 .ends
-** sch_path: /home/usrvnc/gits/chipathon25-SILICON_BBI-sroutk/designs/libs/core_digital/gf180mcu_osu_sc_gp9t3v3/cells/nor3/gf180mcu_osu_sc_gp9t3v3_nor3_1.sch
+
+** sch_path: /home/usrvnc/gits/chipathon25-SILICON_BBI-sroutk/designs/libs/core_digital/gf180mcu_osu_sc_gp12t3v3/cells/nor3/gf180mcu_osu_sc_gp12t3v3_nor3_1.sch
 .subckt gf180mcu_osu_sc_gp12t3v3__nor3_1 A B C VDD Y VSS
 *.PININFO A:I B:I C:I VDD:B Y:O VSS:B
 XM4 net2 A VDD VDD pfet_03v3 L=0.3u W=1.7u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
@@ -1106,3 +1107,22 @@ XM5 Y B VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' 
 XM6 Y C VSS VSS nfet_03v3 L=0.3u W=0.85u nf=1 ad='int((nf+1)/2) * W/nf * 0.18u' as='int((nf+2)/2) * W/nf * 0.18u' pd='2*int((nf+1)/2) * (W/nf + 0.18u)'
 + ps='2*int((nf+2)/2) * (W/nf + 0.18u)' nrd='0.18u / W' nrs='0.18u / W' sa=0 sb=0 sd=0 m=1
 .ends
+
+* NGSPICE file created from gf180mcu_osu_sc__gp12t3v3__aoi222_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_osu_sc_gp12t3v3__aoi222_1 A1 A2 B1 B2 C2 C1 Y VDD VSS
+X0 VDD A2 a_n3268_1558# VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X1 a_n3268_1558# B1 a_n2938_1558# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X2 VSS C2 a_n2412_658# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.102p ps=1.09u w=0.85u l=0.3u
+X3 a_n2412_658# C1 Y VSS nfet_03v3 ad=0.102p pd=1.09u as=0.425p ps=2.7u w=0.85u l=0.3u
+X4 Y C1 a_n2938_1558# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X5 a_n3268_1558# A1 VDD VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.85p ps=4.4u w=1.7u l=0.3u
+X6 Y A2 a_n3268_658# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.102p ps=1.09u w=0.85u l=0.3u
+X7 a_n2938_1558# C2 Y VDD pfet_03v3 ad=0.85p pd=4.4u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X8 a_n3268_658# A1 VSS VSS nfet_03v3 ad=0.102p pd=1.09u as=0.425p ps=2.7u w=0.85u l=0.3u
+X9 a_n2938_1558# B2 a_n3268_1558# VDD pfet_03v3 ad=0.4675p pd=2.25u as=0.4675p ps=2.25u w=1.7u l=0.3u
+X10 Y B2 a_n2840_658# VSS nfet_03v3 ad=0.425p pd=2.7u as=0.102p ps=1.09u w=0.85u l=0.3u
+X11 a_n2840_658# B1 VSS VSS nfet_03v3 ad=0.102p pd=1.09u as=0.425p ps=2.7u w=0.85u l=0.3u
+.ends
+
+.end
