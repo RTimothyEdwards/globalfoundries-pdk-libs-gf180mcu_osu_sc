@@ -1367,7 +1367,7 @@ endmodule
 // type:  
 `timescale 1ns/10ps
 `celldefine
-module gf180mcu_osu_sc_gp9t3v3__and3_1 (Y, A, B, C);
+module gf180mcu_osu_sc_gp9t3v3__and3_2 (Y, A, B, C);
 	output Y;
 	input A, B, C;
 

@@ -4124,6 +4124,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4133,6 +4134,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
     END
   END A
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4142,6 +4144,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
     END
   END B
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.402500 ;
     PORT
       LAYER Metal1 ;
@@ -4153,6 +4156,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
     END
   END Y
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4206,6 +4210,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.742500 ;
     PORT
       LAYER Metal1 ;
@@ -4222,6 +4227,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
     END
   END Y
   PIN A0
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4231,6 +4237,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
     END
   END A0
   PIN A1
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4240,6 +4247,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
     END
   END A1
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4249,6 +4257,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
     END
   END B
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4292,6 +4301,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.912500 ;
     PORT
       LAYER Metal1 ;
@@ -4324,6 +4334,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
     END
   END VDD
   PIN B1
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4333,6 +4344,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
     END
   END B1
   PIN B0
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4342,6 +4354,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
     END
   END B0
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4351,6 +4364,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
     END
   END C
   PIN A1
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4360,6 +4374,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
     END
   END A1
   PIN A0
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4387,6 +4402,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN F
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4396,6 +4412,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
     END
   END F
   PIN E
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4405,6 +4422,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
     END
   END E
   PIN D
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4414,6 +4432,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
     END
   END D
   PIN A
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4423,6 +4442,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
     END
   END A
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4432,6 +4452,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
     END
   END B
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4441,6 +4462,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
     END
   END C
   PIN OUT
+    USE SIGNAL ;
     ANTENNADIFFAREA 2.252500 ;
     PORT
       LAYER Metal1 ;
@@ -4517,6 +4539,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END VDD
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.275000 ;
     PORT
       LAYER Metal1 ;
@@ -4528,6 +4551,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END Y
   PIN I1
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.657500 ;
     PORT
       LAYER Metal1 ;
@@ -4543,6 +4567,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END I1
   PIN I0
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.275000 ;
     PORT
       LAYER Metal1 ;
@@ -4554,6 +4579,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END I0
   PIN I2
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.275000 ;
     PORT
       LAYER Metal1 ;
@@ -4567,6 +4593,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END I2
   PIN I3
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.657500 ;
     PORT
       LAYER Metal1 ;
@@ -4582,6 +4609,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END I3
   PIN S1
+    USE SIGNAL ;
     ANTENNAGATEAREA 1.530000 ;
     PORT
       LAYER Metal1 ;
@@ -4591,6 +4619,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
     END
   END S1
   PIN S0
+    USE SIGNAL ;
     ANTENNAGATEAREA 2.295000 ;
     PORT
       LAYER Metal1 ;
@@ -4693,6 +4722,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4702,6 +4732,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
     END
   END A
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4711,6 +4742,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
     END
   END B
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4730,6 +4762,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
     END
   END VDD
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.742500 ;
     PORT
       LAYER Metal1 ;
@@ -4769,6 +4802,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A0
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4778,6 +4812,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
     END
   END A0
   PIN A1
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4787,6 +4822,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
     END
   END A1
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4796,6 +4832,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
     END
   END B
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4805,6 +4842,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
     END
   END C
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 2.210000 ;
     PORT
       LAYER Metal1 ;
@@ -4857,6 +4895,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A0
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4866,6 +4905,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
     END
   END A0
   PIN A1
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4875,6 +4915,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
     END
   END A1
   PIN B0
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4884,6 +4925,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
     END
   END B0
   PIN B1
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4893,6 +4935,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
     END
   END B1
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4902,6 +4945,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
     END
   END C
   PIN Y
+    USE SIGNAL ;
     ANTENNADIFFAREA 2.252500 ;
     PORT
       LAYER Metal1 ;
@@ -4954,6 +4998,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4963,6 +5008,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
     END
   END A
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4972,6 +5018,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
     END
   END B
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4981,6 +5028,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
     END
   END C
   PIN D
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4990,6 +5038,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
     END
   END D
   PIN E
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -4999,6 +5048,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
     END
   END E
   PIN F
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -5008,6 +5058,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
     END
   END F
   PIN OUT
+    USE SIGNAL ;
     ANTENNADIFFAREA 2.592500 ;
     PORT
       LAYER Metal1 ;
@@ -5061,6 +5112,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
   SYMMETRY X Y ;
   SITE gf180mcu_osu_sc_gp9t3v3 ;
   PIN A
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -5070,6 +5122,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
     END
   END A
   PIN B
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -5079,6 +5132,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
     END
   END B
   PIN C
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -5182,6 +5236,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
     END
   END VSS
   PIN A
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.542750 ;
     PORT
       LAYER Metal1 ;
@@ -5191,6 +5246,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
     END
   END A
   PIN B
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.657500 ;
     PORT
       LAYER Metal1 ;
@@ -5200,6 +5256,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
     END
   END B
   PIN S
+    USE SIGNAL ;
     ANTENNAGATEAREA 1.530000 ;
     PORT
       LAYER Metal1 ;
@@ -5207,6 +5264,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
     END
   END S
   PIN CLK
+    USE SIGNAL ;
     ANTENNAGATEAREA 3.060000 ;
     PORT
       LAYER Metal1 ;
@@ -5217,6 +5275,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
     END
   END CLK
   PIN RN
+    USE SIGNAL ;
     ANTENNAGATEAREA 0.765000 ;
     PORT
       LAYER Metal1 ;
@@ -5224,6 +5283,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
     END
   END RN
   PIN Q
+    USE SIGNAL ;
     ANTENNADIFFAREA 1.402500 ;
     PORT
       LAYER Metal1 ;

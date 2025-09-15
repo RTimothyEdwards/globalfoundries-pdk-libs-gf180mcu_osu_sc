@@ -137485,7 +137485,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
 
   /* gf180mcu_osu_sc_gp9t3v3__and3_2 */
   cell (gf180mcu_osu_sc_gp9t3v3__and3_2) {
-    area : 0;
+    area : 36.195;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -137655,7 +137655,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
 
   /* gf180mcu_osu_sc_gp9t3v3__or3_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__or3_1) {
-    area : 0;
+    area : 24.765;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -137825,7 +137825,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
 
   /* gf180mcu_osu_sc_gp9t3v3__nor3_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__nor3_1) {
-    area : 0;
+    area : 24.765;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -138003,7 +138003,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
 
   /* gf180mcu_osu_sc_gp9t3v3__aoi211_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__aoi211_1) {
-    area : 0;
+    area : 28.258;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -138223,7 +138223,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
   }
   /* gf180mcu_osu_sc_gp9t3v3__aoi221_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__aoi221_1) {
-    area : 0;
+    area : 35.56;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -138495,7 +138495,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
 
   /* gf180mcu_osu_sc_gp9t3v3__aoi33_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__aoi33_1) {
-    area : 0;
+    area : 40.957;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -139139,7 +139139,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
   }
   /* gf180mcu_osu_sc_gp9t3v3__oai211_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__oai211_1) {
-    area : 0;
+    area : 28.258;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
@@ -139370,7 +139370,7 @@ library (gf180mcu_osu_sc_gp9t3v3_TT_25C.ccs) {
   }
   /* gf180mcu_osu_sc_gp9t3v3__oai33_1 */
   cell (gf180mcu_osu_sc_gp9t3v3__oai33_1) {
-    area : 0;
+    area : 40.957;
     pg_pin (VDD) {
       voltage_name : VDD;
       pg_type : primary_power;
