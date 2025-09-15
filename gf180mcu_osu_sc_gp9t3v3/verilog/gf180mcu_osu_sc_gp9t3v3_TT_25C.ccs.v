@@ -1155,6 +1155,249 @@ module gf180mcu_osu_sc_gp9t3v3__xor2_1 (Y, A, B);
 endmodule
 `endcelldefine
 
+// Chipathon 2025 additions
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__aoi33_1 (OUT, A, B, C, D, E, F);
+	output OUT;
+	input A, B, C, D, E, F;
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__oai33_1 (OUT, A, B, C, D, E, F);
+	output OUT;
+	input A, B, C, D, E, F;
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__aoi211_1 (Y, A0, A1, B, C);
+	output Y;
+	input A0, A1, B, C;
+
+	wire and0_out   ;
+	wire nor0_out_Y ;
+
+	and   and0  (and0_out, A0, A1);
+	nor   nor0  (Y, and0_out, B, C);
+
+	specify
+		(A0 -=> Y) = (0:0:0,0:0:0);
+		(A1 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&!C)) (B -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&!C)) (B -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&!C)) (B -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&!B)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&!B)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&!B)) (C -=> Y) = (0:0:0,0:0:0);
+	endspecify
+
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__aoi221_1 (Y, A0, A1, B0, B1, C);
+	output Y;
+	input A0, A1, B0, B1, C;
+
+	wire and0_out   ;
+	wire and1_out   ;
+	wire nor0_out_Y ;
+
+	and   and0  (and0_out, A0, A1);
+	and   and1  (and1_out, B0, B1);
+	nor   nor0  (Y, and0_out, and1_out, C);
+
+	specify
+		if ((A1&!B0&!B1&!C)) (A0 -=> Y) = (0:0:0,0:0:0);
+		if ((A1&!B0&B1&!C)) (A0 -=> Y) = (0:0:0,0:0:0);
+		if ((A1&B0&!B1&!C)) (A0 -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!B0&!B1&!C)) (A1 -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!B0&B1&!C)) (A1 -=> Y) = (0:0:0,0:0:0);
+		if ((A0&B0&!B1&!C)) (A1 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&B1&!C)) (B0 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&B1&!C)) (B0 -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&B1&!C)) (B0 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&B0&!C)) (B1 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&B0&!C)) (B1 -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&B0&!C)) (B1 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&!B0&!B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&!B0&B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&!A1&B0&!B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&!B0&!B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&!B0&B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&B0&!B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&!B0&!B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&!B0&B1)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&B0&!B1)) (C -=> Y) = (0:0:0,0:0:0);
+	endspecify
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__oai211_1 (Y, A0, A1, B, C);
+	output Y;
+	input A0, A1, B, C;
+
+	wire or0_out   ;
+	wire nand0_out_Y ;
+
+	or    or0    (or0_out, A0, A1);
+	nand  nand0  (Y, and0_out, B, C);
+
+	specify
+		(A0 -=> Y) = (0:0:0,0:0:0);
+		(A1 -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&C)) (B -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&C)) (B -=> Y) = (0:0:0,0:0:0);
+		if ((A0&A1&C)) (B -=> Y) = (0:0:0,0:0:0);
+		if ((!A0&A1&B)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((A0&!A1&B)) (C -=> Y) = (0:0:0,0:0:0);
+		if ((A0&A1&B)) (C -=> Y) = (0:0:0,0:0:0);
+	endspecify
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__mux4_1 (Y, I0, I1, I2, I3, S0, S1);
+	output Y;
+	input I0, I1, I2, I3, S0, S1;
+
+	gf180mcu_osu_sc__udp_mux_4to2  mux4to2_0  (Y, I0, I1, I2, I3, S0, S1);
+
+	specify
+		if ((!I1&!I2&!I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((!I1&!I2&I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((!I1&I2&!I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((!I1&I2&I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((I1&!I2&!I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((I1&!I2&I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((I1&I2&!I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((I1&I2&I3&!S0&!S1)) (I0 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I2&!I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I2&I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I2&!I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I2&I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I2&!I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I2&I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I2&!I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I2&I3&S0&!S1)) (I1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&!I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&!I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&!I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&I3&!S0&S1)) (I2 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&!I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&!I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&!I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&I2&S0&S1)) (I3 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&!I2&I3&S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&I2&!I3&S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&!I2&!I3&!S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&!I2&I3&!S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&!I2&I3&S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&!I3&!S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&!I3&S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&I3&!S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&!I3&!S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&I3&!S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&I3&S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&I2&!I3&!S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&I2&!I3&S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&I2&I3&!S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&!I2&I3&S1)) (S0 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&I2&!I3&S1)) (S0 -=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&!I2&I3&S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&I2&!I3&!S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&I2&I3&!S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&!I1&I2&I3&S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&!I2&!I3&S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&!I3&!S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&!I3&S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((!I0&I1&I2&I3&!S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&!I3&!S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&I3&!S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&!I2&I3&S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&!I1&I2&I3&S0)) (S1 +=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&!I2&!I3&!S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&!I2&!I3&S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&!I2&I3&!S0)) (S1 -=> X) = (0:0:0,0:0:0);
+		if ((I0&I1&I2&!I3&S0)) (S1 -=> X) = (0:0:0,0:0:0);
+	endspecify
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__or3_1 (Y, A, B, C);
+	output Y;
+	input A, B, C;
+
+	or	or0	(Y, A, B, C);
+
+	specify
+		(A +=> X) = (0:0:0,0:0:0);
+		(B +=> X) = (0:0:0,0:0:0);
+		(C +=> X) = (0:0:0,0:0:0);
+	endspecify
+endmodule
+`endcelldefine
+
+// type:  
+`timescale 1ns/10ps
+`celldefine
+module gf180mcu_osu_sc_gp9t3v3__and3_1 (Y, A, B, C);
+	output Y;
+	input A, B, C;
+
+	and	and0	(Y, A, B, C);
+
+	specify
+		(A +=> X) = (0:0:0,0:0:0);
+		(B +=> X) = (0:0:0,0:0:0);
+		(C +=> X) = (0:0:0,0:0:0);
+	endspecify
+endmodule
+`endcelldefine
+
+// type:  
+// `timescale 1ns/10ps
+// `celldefine
+// module gf180mcu_osu_sc_gp9t3v3__sdffrnq_1 (Q, A, B, S, CLK, RN);
+// 	output Q;
+// 	input A, B, S, CLK, RN;
+// 
+// 	wire R;
+// 
+// 	not	not0	(R, RN);
+// (to be completed)
+//
+// endmodule
+// `endcelldefine
+
+
+// End Chipathon 2025 additions
 
 `ifdef _udp_def_altos_latch_
 `else
@@ -1536,6 +1779,38 @@ primitive altos_latch_sr_1 (q, v, clk, d, s, r);
 		? * 0 0 ? : 0 : 0;
 		? ? 1 * 0 : 1 : 1;
 		? ? 0 0 * : 0 : 0;
+	endtable
+endprimitive
+`endif
+
+// Chipathon 2025 addition:  4-to-2 mux
+`ifdef _udp_def_mux4to2
+`else
+`define _udp_def_mux4to2
+primitive gf180mcu_osu_sc__udp_mux_4to2 (y, a0, a1, a2, a3, s0, s1);
+ 	output y;
+	input a0, a1, a2, a3, s0, s1;
+
+	table
+     //  a0  a1  a2  a3  s0  s1 :  y
+         0   ?   ?   ?   0   0  :  0   ;
+         1   ?   ?   ?   0   0  :  1   ;
+         ?   0   ?   ?   1   0  :  0   ;
+         ?   1   ?   ?   1   0  :  1   ;
+         ?   ?   0   ?   0   1  :  0   ;
+         ?   ?   1   ?   0   1  :  1   ;
+         ?   ?   ?   0   1   1  :  0   ;
+         ?   ?   ?   1   1   1  :  1   ;
+         0   0   0   0   ?   ?  :  0   ;
+         1   1   1   1   ?   ?  :  1   ;
+         0   0   ?   ?   ?   0  :  0   ;
+         1   1   ?   ?   ?   0  :  1   ;
+         ?   ?   0   0   ?   1  :  0   ;
+         ?   ?   1   1   ?   1  :  1   ;
+         0   ?   0   ?   0   ?  :  0   ;
+         1   ?   1   ?   0   ?  :  1   ;
+         ?   0   ?   0   1   ?  :  0   ;
+         ?   1   ?   1   1   ?  :  1   ;
 	endtable
 endprimitive
 `endif
