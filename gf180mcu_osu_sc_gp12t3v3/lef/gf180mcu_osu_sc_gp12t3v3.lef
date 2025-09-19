@@ -4062,7 +4062,7 @@ MACRO gf180mcu_osu_sc_gp12t3v3__xor2_1
 END gf180mcu_osu_sc_gp12t3v3__xor2_1
 
 MACRO gf180mcu_osu_sc_gp12t3v3__and3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp12t3v3__and3_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 4.750 BY 8.300 ;
@@ -4137,7 +4137,7 @@ MACRO gf180mcu_osu_sc_gp12t3v3__and3_1
 END gf180mcu_osu_sc_gp12t3v3__and3_1
 
 MACRO gf180mcu_osu_sc_gp12t3v3__nand3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp12t3v3__nand3_1 ;
   ORIGIN 0.850 0.000 ;
   SIZE 3.900 BY 8.300 ;
@@ -4208,7 +4208,7 @@ MACRO gf180mcu_osu_sc_gp12t3v3__nand3_1
 END gf180mcu_osu_sc_gp12t3v3__nand3_1
 
 MACRO gf180mcu_osu_sc_gp12t3v3__nor3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp12t3v3__nor3_1 ;
   ORIGIN 0.150 0.000 ;
   SIZE 3.900 BY 8.300 ;
@@ -4281,7 +4281,7 @@ MACRO gf180mcu_osu_sc_gp12t3v3__nor3_1
 END gf180mcu_osu_sc_gp12t3v3__nor3_1
 
 MACRO gf180mcu_osu_sc_gp12t3v3__aoi222_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp12t3v3__aoi222_1 ;
   ORIGIN 17.590 -2.240 ;
   SIZE 7.200 BY 8.300 ;

@@ -4117,7 +4117,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__xor2_1
 END gf180mcu_osu_sc_gp9t3v3__xor2_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__and3_2 ;
   ORIGIN 0.000 0.000 ;
   SIZE 5.700 BY 6.350 ;
@@ -4203,7 +4203,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__and3_2
 END gf180mcu_osu_sc_gp9t3v3__and3_2
 
 MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi211_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 4.450 BY 6.350 ;
@@ -4294,7 +4294,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi211_1
 END gf180mcu_osu_sc_gp9t3v3__aoi211_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi221_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 5.600 BY 6.350 ;
@@ -4395,7 +4395,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi221_1
 END gf180mcu_osu_sc_gp9t3v3__aoi221_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__aoi33_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 6.450 BY 6.350 ;
@@ -4508,7 +4508,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__aoi33_1
 END gf180mcu_osu_sc_gp9t3v3__aoi33_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__mux4_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 15.850 BY 6.350 ;
@@ -4715,7 +4715,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__mux4_1
 END gf180mcu_osu_sc_gp9t3v3__mux4_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__nor3_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 3.900 BY 6.350 ;
@@ -4795,7 +4795,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__nor3_1
 END gf180mcu_osu_sc_gp9t3v3__nor3_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__oai211_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 4.450 BY 6.350 ;
@@ -4888,7 +4888,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai211_1
 END gf180mcu_osu_sc_gp9t3v3__oai211_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__oai221_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 5.250 BY 6.350 ;
@@ -4991,7 +4991,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai221_1
 END gf180mcu_osu_sc_gp9t3v3__oai221_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__oai33_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 6.450 BY 6.350 ;
@@ -5105,7 +5105,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__oai33_1
 END gf180mcu_osu_sc_gp9t3v3__oai33_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__or3_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 4.750 BY 6.350 ;
@@ -5188,7 +5188,7 @@ MACRO gf180mcu_osu_sc_gp9t3v3__or3_1
 END gf180mcu_osu_sc_gp9t3v3__or3_1
 
 MACRO gf180mcu_osu_sc_gp9t3v3__sdffrnq_4
-  CLASS BLOCK ;
+  CLASS CORE ;
   FOREIGN gf180mcu_osu_sc_gp9t3v3__sdffrnq_4 ;
   ORIGIN 0.000 0.000 ;
   SIZE 27.650 BY 6.350 ;
